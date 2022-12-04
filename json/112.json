@@ -1,11 +1,11 @@
 {
   "number": "112",
-  "name": "坦克獸",
+  "name": "坦克兽",
   "cost": "6",
-  "race": "資料",
+  "race": "资料",
   "skill": [],
   "level": "成熟期",
-  "preItemName": "亞古獸(黑)  穿山獸 礦石獸",
-  "nextItemName": "安杜路獸  千兆龍獸  炮蜂獸 騎士獸 火山獸",
-  "intro": "擁有坦克外形的改造型數碼寶貝。"
+  "preItemName": "亚古兽(黑)  穿山兽 矿石兽",
+  "nextItemName": "安杜路兽  千兆龙兽  炮蜂兽 骑士兽 火山兽",
+  "intro": "拥有坦克外形的改造型数码宝贝。"
 }

@@ -25,6 +25,7 @@
     "@alicloud/tea-typescript": "^1.7.1",
     "@alicloud/tea-util": "^1.4.4",
     "@jyeontu/img-concat": "^1.0.7",
+    "chinese-s2t": "^1.0.0",
     "gm": "^1.25.0"
   },
   "files": [

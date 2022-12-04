@@ -1,11 +1,11 @@
 {
   "number": "055",
-  "name": "比特獸",
+  "name": "比特兽",
   "cost": "4",
   "race": "病毒",
   "skill": [],
-  "level": "成長期",
-  "preItemName": "布加獸",
-  "nextItemName": "飛龍獸  貝殼鼻涕獸 怪蛙獸 海龍獸 鼻涕獸",
-  "intro": "以四肢行走的兩棲類型數碼寶貝。"
+  "level": "成长期",
+  "preItemName": "布加兽",
+  "nextItemName": "飞龙兽  贝壳鼻涕兽 怪蛙兽 海龙兽 鼻涕兽",
+  "intro": "以四肢行走的两栖类型数码宝贝。"
 }

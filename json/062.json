@@ -1,11 +1,11 @@
 {
   "number": "062",
-  "name": "妖狐獸",
+  "name": "妖狐兽",
   "cost": "5",
-  "race": "資料",
+  "race": "资料",
   "skill": [],
-  "level": "成長期",
-  "preItemName": "種子獸",
-  "nextItemName": "朽木獸 加魯魯獸 九尾狐獸 黑迪路獸 兔爺獸",
-  "intro": "擁有金色狐狸外型的獸人型數碼寶貝。"
+  "level": "成长期",
+  "preItemName": "种子兽",
+  "nextItemName": "朽木兽 加鲁鲁兽 九尾狐兽 黑迪路兽 兔爷兽",
+  "intro": "拥有金色狐狸外型的兽人型数码宝贝。"
 }

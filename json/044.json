@@ -1,11 +1,11 @@
 {
   "number": "044",
-  "name": "多路獸",
+  "name": "多路兽",
   "cost": "5",
-  "level": "成長期",
-  "race": "資料",
+  "level": "成长期",
+  "race": "资料",
   "skill": [],
-  "preItemName": "汪喵獸",
-  "nextItemName": "守衛獸 獨眼龍 多路加獸 猛禽龍獸 雀蜂獸",
+  "preItemName": "汪喵兽",
+  "nextItemName": "守卫兽 独眼龙 多路加兽 勐禽龙兽 雀蜂兽",
   "intro": ""
 }
