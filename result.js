@@ -566,7 +566,8 @@ const digimonRelations = [
     "race": "自由",
     "skill": "微笑獠牙 敌方单体物理无属性威力40(烈风利爪I)",
     "level": {
-      "name": "-幼年期I"
+      "index": 1,
+      "name": "幼年期"
     },
     "preItem": [
       {
@@ -3139,7 +3140,8 @@ const digimonRelations = [
     "name": "伽奥伽兽",
     "cost": "8",
     "level": {
-      "name": "口成熟期"
+      "index": 3,
+      "name": "成熟期"
     },
     "race": "资料",
     "skill": "螺旋吹袭 敌方单体物理风属性威力90(音速空洞II 狂风暴雨I 寒冰之箭II)",
@@ -4028,7 +4030,8 @@ const digimonRelations = [
     "race": "资料",
     "skill": "阳光射线 敌方单体魔法光属性威力80(盖亚元素II 神圣之光II X治愈)",
     "level": {
-      "name": "-成熟期"
+      "index": 3,
+      "name": "成熟期"
     },
     "preItem": [
       {
@@ -4243,7 +4246,8 @@ const digimonRelations = [
     "race": "资料",
     "skill": "流星风暴 敌方全体物理无属性威力40 命中率90 易暴击(重度强袭II 神圣钩爪II 力量能源II)",
     "level": {
-      "name": "-成熟期"
+      "index": 3,
+      "name": "成熟期"
     },
     "preItem": [
       {
@@ -4418,7 +4422,8 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "冰晶云 敌方全体魔法水属性威力30(发电水流II 反射镜 X治愈)",
     "level": {
-      "name": "·成熟期"
+      "index": 3,
+      "name": "成熟期"
     },
     "preItem": [
       {
@@ -4861,7 +4866,8 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "大便投掷 敌方单体物理土属性威力75 30%敌人ATK-10%(剧毒陷阱 速度破坏 寒冰之箭II)",
     "level": {
-      "name": "-成熟期"
+      "index": 3,
+      "name": "成熟期"
     },
     "preItem": [
       {
@@ -10096,7 +10102,8 @@ const digimonRelations = [
     "race": "资料",
     "skill": "辙剑制裁 敌方单体物理无属性威力30 攻击5次   剑灵 到下回合受伤无效 受到物理或魔法攻击 进入反击(守备填充力场 复活 攻击填充力场 马赫突击III 流星坠落III)",
     "level": {
-      "name": "-究极体"
+      "index": 5,
+      "name": "究极体"
     },
     "preItem": [
       {
@@ -11219,7 +11226,8 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "双重冲击 敌方单体物理暗属性威力20 攻击8次 命中率90(破坏加农III 物理耗竭 彗星重锤III 流星坠落II 地狱粉碎III)",
     "level": {
-      "name": "-究极体"
+      "index": 5,
+      "name": "究极体"
     },
     "preItem": [
       {
@@ -12010,7 +12018,8 @@ const digimonRelations = [
     "race": "资料",
     "skill": "荆棘之鞭 敌方单体物理木属性威力120 吸取50%HP 30%麻痹(符文之森II 盖亚元素III 最终灵气 智能填充力场 符文之森III)",
     "level": {
-      "name": "-究极体"
+      "index": 5,
+      "name": "究极体"
     },
     "preItem": [
       {
@@ -12517,7 +12526,8 @@ const digimonRelations = [
     "race": "自由",
     "skill": "热情摇滚魂 敌方单体物理火属性威力70(重度强袭I 晕眩冲击)",
     "level": {
-      "name": "-"
+      "index": 3,
+      "name": "成熟期"
     },
     "preItem": [
       {
@@ -12540,7 +12550,8 @@ const digimonRelations = [
     "race": "自由",
     "skill": "嗨爆摇滚魂  敌方单体物理火属性威力65 攻击2次   重金属火神炮 敌方全体物理火属性威力100(加速增幅器 交叉拳 速度填充力场 流星坠落III 马赫突击III)",
     "level": {
-      "name": "-"
+      "index": 4,
+      "name": "完全体"
     },
     "preItem": [
       {
