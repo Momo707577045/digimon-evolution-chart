@@ -4,7 +4,10 @@
   "cost": "1",
   "race": "疫苗",
   "skill": "大海啸 敌方全体魔法水属性威力75(大海波浪I X治愈 发电水流III 寒冰之箭III)",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "preItem": [
     {
       "name": "海狮兽",

@@ -2,7 +2,10 @@
   "number": "215",
   "name": "兽人加鲁鲁",
   "cost": "12",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "race": "疫苗",
   "skill": "凯撒锐爪 敌方单体物理无属性威力120(地牛翻身I 流星坠落I 彗星重锤III 地牛翻身II)",
   "preItem": [

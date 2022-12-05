@@ -2,7 +2,10 @@
   "number": "242",
   "name": "基路比兽(恶)",
   "cost": "20",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "race": "病毒",
   "skill": "紫电长矛  敌方单体雷属性高威力INT贯穿攻击 易暴击(梦魇III 精神耗竭 地狱粉碎II 地狱粉碎III 状态屏障)",
   "preItem": [

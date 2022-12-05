@@ -4,7 +4,10 @@
   "cost": "22",
   "race": "病毒",
   "skill": "魔颚 敌方单体物理水属性威力145 15%即死(寒冰之箭III 雄伟巨石III 守备破坏力场 力量能源III 大海波浪III)",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "preItem": [
     {
       "name": "达高兽",

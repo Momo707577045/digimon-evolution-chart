@@ -2,7 +2,10 @@
   "number": "142",
   "name": "阿卡迪兽完全体",
   "cost": "4",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "race": "病毒",
   "skill": "点之矩阵 敌方单体无属性高威力DEF贯穿攻击 吸取30%HP(死亡召唤 攻击破坏 烈风利爪II 神圣钩爪II)",
   "preItem": [

@@ -4,7 +4,10 @@
   "cost": "22",
   "race": "病毒",
   "skill": "火焰地狱 敌方群体魔法火属性威力90(梦魇III 闪电坠击II 智能破坏力场 爆裂火焰III 地狱粉碎III)",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "preItem": [
     {
       "name": "丧尸暴龙兽",

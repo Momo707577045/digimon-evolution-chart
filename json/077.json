@@ -4,7 +4,10 @@
   "cost": "8",
   "race": "疫苗",
   "skill": "天堂之拳 敌方单体物理光属性威力80 10%自身ATK或INT+10%(神圣之光II X治愈 闪耀镭射I)",
-  "level": "成熟期",
+  "level": {
+    "index": 3,
+    "name": "成熟期"
+  },
   "preItem": [
     {
       "name": "管狐兽",

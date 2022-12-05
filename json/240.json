@@ -2,7 +2,10 @@
   "number": "240",
   "name": "狮鹫兽",
   "cost": "18",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "race": "资料",
   "skill": "超音波之声 敌方单体风属性高威力INT贯穿攻击 20%BUG(烈风利爪III 闪耀镭射II 速度填充力场 狂风暴雨III 复活)",
   "preItem": [

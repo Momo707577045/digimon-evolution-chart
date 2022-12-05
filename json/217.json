@@ -4,7 +4,10 @@
   "cost": "12",
   "race": "病毒",
   "skill": "潘朵拉对话 敌方全体HP-20% 反伤HP的10%(地狱粉碎I 反射镜 地狱粉碎II 梦魇III)",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "preItem": [
     {
       "name": "巫师兽",

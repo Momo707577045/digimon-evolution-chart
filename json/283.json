@@ -2,7 +2,10 @@
   "number": "283",
   "name": "贝尔菲兽SM",
   "cost": "22",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "race": "病毒",
   "skill": "永恒噩梦 敌方全体暗属性中威力INT贯穿攻击 50%睡眠(破坏加农III 负极锁链 雄伟巨石III 智能破坏力场 地狱粉碎III)",
   "preItem": [

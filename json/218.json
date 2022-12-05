@@ -2,7 +2,10 @@
   "number": "218",
   "name": "阿卡迪兽究极体",
   "cost": "20",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "race": "病毒",
   "skill": "点之矩阵 敌方单体无属性高威力DEF贯穿攻击 吸取30%HP 必中(破坏加农III 速度破坏力场 神圣钩爪III 马赫突击III 遗失锁链)",
   "preItem": [

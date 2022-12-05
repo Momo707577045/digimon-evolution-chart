@@ -4,7 +4,10 @@
   "cost": "12",
   "race": "疫苗",
   "skill": "超大角炮 敌方单体雷属性高威力INT贯穿攻击(符文之森I 速度破坏 盖亚元素III 符文之森II)",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "preItem": [
     {
       "name": "比多兽",

@@ -4,7 +4,10 @@
   "cost": "20",
   "race": "疫苗",
   "skill": "神之烈焰 敌方全体物理光属性威力100(神圣钩爪III 云雾汽油弹III X灵气 辅助终结 闪电坠击III)",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "preItem": [
     {
       "name": "飞行V龙兽",

@@ -4,7 +4,10 @@
   "cost": "5",
   "race": "病毒",
   "skill": "召唤 敌方单体HP-100 自身INT+10%(梦魇I 偶像泡沫)",
-  "level": "成长期",
+  "level": {
+    "index": 2,
+    "name": "成长期"
+  },
   "preItem": [
     {
       "name": "柏古兽",

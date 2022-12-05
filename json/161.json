@@ -4,7 +4,10 @@
   "cost": "12",
   "race": "疫苗",
   "skill": "十字利刃 敌方单体物理光属性威力110 易暴击(反BUG 神圣钩爪III 闪耀镭射I 重度强袭III)",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "preItem": [
     {
       "name": "守卫兽(金)",

@@ -4,7 +4,10 @@
   "cost": "1",
   "race": "病毒",
   "skill": "夜魔飞袭 敌方全体魔法暗属性65 吸取15%HP(地狱粉碎I 精神耗竭 梦魇III 破坏加农III)",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "preItem": [
     {
       "name": "冰恶魔兽",

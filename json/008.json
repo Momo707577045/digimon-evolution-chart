@@ -2,7 +2,10 @@
   "number": "008",
   "name": "种子兽",
   "cost": "3",
-  "level": "幼年期",
+  "level": {
+    "index": 1,
+    "name": "幼年期"
+  },
   "race": "自由",
   "skill": "黏性之泡 敌方单体魔法木属性威力25 10%敌人DPS-10%(盖亚元素I)  ",
   "preItem": [

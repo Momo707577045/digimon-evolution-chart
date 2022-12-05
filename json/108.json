@@ -4,7 +4,10 @@
   "cost": "8",
   "race": "自由",
   "skill": "终结刺钉 敌方单体木属性中威力DEF贯穿攻击 易暴击(新月之叶II 狂风暴雨I 烈风利爪II)",
-  "level": "成熟期",
+  "level": {
+    "index": 3,
+    "name": "成熟期"
+  },
   "preItem": [
     {
       "name": "甲虫兽",

@@ -4,7 +4,10 @@
   "cost": "8",
   "race": "病毒",
   "skill": "冰霜之爪 敌方单体水属性中威力DEF贯穿攻击(寒冰之箭II 精神耗竭 地狱粉碎I)",
-  "level": "成熟期",
+  "level": {
+    "index": 3,
+    "name": "成熟期"
+  },
   "preItem": [
     {
       "name": "小妖兽",

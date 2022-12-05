@@ -2,7 +2,10 @@
   "number": "179",
   "name": "怪蛙皇",
   "cost": "12",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "race": "病毒",
   "skill": "破坏音波 敌方全体无属性中威力INT贯穿攻击 30%敌方ATK或INT-20%(大海波浪I 偶像泡沫 大海波浪II 寒冰之箭III)",
   "preItem": [

@@ -4,7 +4,10 @@
   "cost": "12",
   "race": "病毒",
   "skill": "核子镭射光 敌方单体雷属性中威力DEF贯穿攻击 自身DEF+10%(麻痹电网 守备填充 爆裂火焰III 奈米机械破坏III)",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "preItem": [
     {
       "name": "古拉兽",

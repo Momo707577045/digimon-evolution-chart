@@ -4,7 +4,10 @@
   "cost": "20",
   "race": "疫苗",
   "skill": "神圣火焰 敌方全体魔法光属性威力95(闪耀镭射II 神圣之光III 完美复活 X灵气 闪耀镭射III)",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "preItem": [
     {
       "name": "超比多兽",

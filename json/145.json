@@ -4,7 +4,10 @@
   "cost": "12",
   "race": "资料",
   "skill": "宇宙闪光 敌方全体魔法无属性威力75(地牛翻身I 流星坠落I 雄伟巨石III 力量能源III)",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "preItem": [
     {
       "name": "冰石兽",

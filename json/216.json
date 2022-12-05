@@ -2,7 +2,10 @@
   "number": "216",
   "name": "黑兽人加鲁鲁",
   "cost": "12",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "race": "病毒",
   "skill": "弦月弯刀 敌方单体物理土属性威力110 自身SPD+10%(马赫突击I 云雾汽油弹II 彗星重锤III 马赫突击II)",
   "preItem": [

@@ -2,7 +2,10 @@
   "number": "299",
   "name": "钢铁海龙兽",
   "cost": "8",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "race": "资料",
   "skill": "究极波浪炮 敌方单体魔法水属性威力130(发电水流III 大海波浪II 攻击破坏力场 天国闪电III 大海波浪III)",
   "preItem": [

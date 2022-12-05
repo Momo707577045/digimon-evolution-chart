@@ -4,7 +4,10 @@
   "cost": "8",
   "race": "资料",
   "skill": "悲痛之蓝 敌方全体水属性中威力INT贯穿攻击 25%睡眠(大海波浪II X灵气 发电水流III 状态屏障 大海波浪III)",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "preItem": [
     {
       "name": "祖顿兽",

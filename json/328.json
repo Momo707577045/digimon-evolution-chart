@@ -4,7 +4,10 @@
   "cost": "5",
   "race": "疫苗",
   "skill": "居合刃 敌方单体无属性中威力DEF贯穿攻击(重度强袭I 暴击填充)",
-  "level": "成长期",
+  "level": {
+    "index": 2,
+    "name": "成长期"
+  },
   "preItem": [
     {
       "name": "汪喵兽",

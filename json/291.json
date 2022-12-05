@@ -2,7 +2,10 @@
   "number": "291",
   "name": "密涅瓦兽",
   "cost": "20",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "race": "病毒",
   "skill": "强袭旋斩 敌方单体物理无属性威力140 易暴击(重度强袭III 马赫突击II 守备破坏力场 新月之叶III 马赫突击III)",
   "preItem": [

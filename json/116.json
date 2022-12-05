@@ -4,7 +4,10 @@
   "cost": "8",
   "race": "病毒",
   "skill": "死亡之爪 敌方单体HP-200 吸取20%HP(破坏加农II 物理耗竭 地狱粉碎I)",
-  "level": "成熟期",
+  "level": {
+    "index": 3,
+    "name": "成熟期"
+  },
   "preItem": [
     {
       "name": "德古兽",

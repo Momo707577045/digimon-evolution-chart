@@ -4,7 +4,10 @@
   "cost": "20",
   "race": "自由",
   "skill": "炎龙击 敌方单体物理火属性威力140(云雾汽油弹III 烈风利爪III 晕眩冲击 地牛翻身II 流星坠落III)",
-  "level": "究极体",
+  "level": {
+    "index": 5,
+    "name": "究极体"
+  },
   "preItem": [
     {
       "name": "炎龙兽",

@@ -2,7 +2,10 @@
   "number": "169",
   "name": "丧尸撒旦兽",
   "cost": "12",
-  "level": "完全体",
+  "level": {
+    "index": 4,
+    "name": "完全体"
+  },
   "race": "病毒",
   "skill": "暗堕骨爪 敌方单体HP-20% 50%液晶化(角色倒置 地狱粉碎I 破坏加农III 梦魇III) ",
   "preItem": [

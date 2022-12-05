@@ -4,7 +4,10 @@
   "cost": "6",
   "race": "资料",
   "skill": "超时空破碎 敌方单体HP-150 30%敌人SPD-10%(天国闪电II 治愈 偶像泡沫)",
-  "level": "成熟期",
+  "level": {
+    "index": 3,
+    "name": "成熟期"
+  },
   "preItem": [
     {
       "name": "矿石兽",

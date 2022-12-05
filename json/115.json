@@ -4,7 +4,10 @@
   "cost": "8",
   "race": "疫苗",
   "skill": "猫猫拳 敌方单体HP-150 60%混乱(神圣之光II 灵气 复活)",
-  "level": "成熟期",
+  "level": {
+    "index": 3,
+    "name": "成熟期"
+  },
   "preItem": [
     {
       "name": "大耳兽",

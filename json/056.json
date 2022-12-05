@@ -4,7 +4,10 @@
   "cost": "5",
   "race": "自由",
   "skill": "羽毛回力镖 敌方单体风属性中威力DEF贯穿攻击(烈风利爪I 音速空洞I)",
-  "level": "成长期",
+  "level": {
+    "index": 2,
+    "name": "成长期"
+  },
   "preItem": [
     {
       "name": "迪哥兽",
