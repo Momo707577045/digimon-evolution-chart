@@ -7,7 +7,7 @@ const digimonRelations = [
     "skill": "炫光之眼 敌方单体魔法暗属性威力30",
     "level": {
       "index": 1,
-      "name": "幼年期"
+      "name": "幼年期1"
     },
     "preItem": [
       {
@@ -39,7 +39,7 @@ const digimonRelations = [
     "skill": "黏性之泡 敌方单体魔法木属性威力25 10%敌人SPD-10%",
     "level": {
       "index": 1,
-      "name": "幼年期"
+      "name": "幼年期1"
     },
     "preItem": [
       {
@@ -71,7 +71,7 @@ const digimonRelations = [
     "skill": "酸之泡 敌方单体魔法水属性威力30",
     "level": {
       "index": 1,
-      "name": "幼年期"
+      "name": "幼年期1"
     },
     "preItem": [
       {
@@ -99,7 +99,7 @@ const digimonRelations = [
     "skill": "酸之泡 敌方单体魔法水属性威力30",
     "level": {
       "index": 1,
-      "name": "幼年期"
+      "name": "幼年期1"
     },
     "preItem": [
       {
@@ -127,7 +127,7 @@ const digimonRelations = [
     "skill": "极酸之泡 敌方单体魔法水属性威力35",
     "level": {
       "index": 1,
-      "name": "幼年期"
+      "name": "幼年期1"
     },
     "preItem": [
       {
@@ -152,8 +152,8 @@ const digimonRelations = [
     "name": "阿卡迪兽幼年期",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "数据消耗 敌方单体物理暗属性威力35 吸取30%HP(梦魇I)",
@@ -184,8 +184,8 @@ const digimonRelations = [
     "name": "滚球兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "泡沫 敌方单体魔法水属性威力30(云雾汽油弹I)",
@@ -232,8 +232,8 @@ const digimonRelations = [
     "name": "种子兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "黏性之泡 敌方单体魔法木属性威力25 10%敌人DPS-10%(盖亚元素I)  ",
@@ -268,8 +268,8 @@ const digimonRelations = [
     "name": "独角兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "泡泡 敌方单体魔法水属性威力30(彗星重锤I)",
@@ -308,8 +308,8 @@ const digimonRelations = [
     "name": "指爪兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "钉之刻痕 敌方单体物理暗属性威力40(破坏加农I)  ",
@@ -344,8 +344,8 @@ const digimonRelations = [
     "name": "迪哥兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "反噬 敌方单体物理无属性威力40(重度强袭I)",
@@ -384,8 +384,8 @@ const digimonRelations = [
     "name": "猫猫兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "妖狐之尾 敌方单体物理光属性威力35(神圣钩爪I)",
@@ -420,8 +420,8 @@ const digimonRelations = [
     "name": "柏古兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "毒之泡 敌方单体魔法暗属性威力25 10%几率剧毒(梦魇I)",
@@ -456,8 +456,8 @@ const digimonRelations = [
     "name": "比高兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "肥皂之花 敌方单体魔法水属性威力30(新月之叶I)",
@@ -492,8 +492,8 @@ const digimonRelations = [
     "name": "布加兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "空气之泡 敌方单体魔法水属性威力30(发电水流I)",
@@ -528,8 +528,8 @@ const digimonRelations = [
     "name": "年糕兽",
     "cost": "3",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "race": "自由",
     "skill": "伸缩自如的泡泡 敌方单体魔法水属性威力30(力量能源I)",
@@ -566,8 +566,8 @@ const digimonRelations = [
     "race": "自由",
     "skill": "微笑獠牙 敌方单体物理无属性威力40(烈风利爪I)",
     "level": {
-      "index": 1,
-      "name": "幼年期"
+      "index": 2,
+      "name": "幼年期2"
     },
     "preItem": [
       {
@@ -602,7 +602,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "小型火焰 敌方单体物理火属性威力70(重度强袭I 攻击填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -640,7 +640,7 @@ const digimonRelations = [
     "name": "亚古兽(黑)",
     "cost": "5",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "race": "病毒",
@@ -680,7 +680,7 @@ const digimonRelations = [
     "name": "阿卡迪兽成长期",
     "cost": "5",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "race": "病毒",
@@ -714,7 +714,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "滚动攻击 敌方单体物理土属性威力60 10%自身DEF+10%(雄伟巨石I 晕眩冲击)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -754,7 +754,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "召唤 敌方单体HP-100 自身INT+10%(梦魇I 偶像泡沫)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -794,7 +794,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "闪光电击 敌方单体魔法雷属性威力30 攻击2次(天国闪电I 麻痹电网)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -834,7 +834,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "睡之泡 敌方单体魔法水属性威力55 10%睡眠(发电水流I 反睡眠)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -874,7 +874,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "双重反击 敌方全体物理无属性威力20 攻击2次(反晕眩 敏捷填充) ",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -914,7 +914,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "麻痹毒气 敌方单体物理雷属性威力65 15%麻痹(破坏加农I 混乱鬼火)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -954,7 +954,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "爆炎火焰弹 敌方单体物理火属性威力65 10%敌人DEF-10%(爆裂火焰I 反晕眩)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -992,7 +992,7 @@ const digimonRelations = [
     "name": "加布兽(黑)",
     "cost": "5",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "race": "病毒",
@@ -1034,7 +1034,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "破岩击 敌方单体物理土属性威力70(云雾汽油弹I 攻击填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1074,7 +1074,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "绝光冲 敌方单体魔法光属性威力65(神圣钩爪I 神圣之光I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1114,7 +1114,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "疯狂大笑 敌方单体物理暗属性威力75(破坏加农I 守备破坏)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1154,7 +1154,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "愤怒岩石 敌方单体物理土属性威力65 10%自身DEF+10%(守备填充 彗星重锤I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1194,7 +1194,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "野人火焰弹 敌方单体物理火属性威力65 10%晕眩(彗星重锤I 晕眩冲击)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1230,7 +1230,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "鱼群大暴走 敌方全体物理水属性威力15 攻击1~3次(偶像泡沫 反混乱)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1270,7 +1270,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "黑珍珠 敌方全体魔法水属性威力25(寒冰之箭I 反睡眠) ",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1310,7 +1310,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "二十连俯冲 敌方单体物理无属性威力75(重度强袭I 攻击填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1346,7 +1346,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "闪光环 敌方单体物理光属性威力70 必中(神圣之光I 闪耀镭射I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1386,7 +1386,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "乳酪爆弹 敌方单体物理火属性威力70(重度强袭I 疾速逃脱)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1422,7 +1422,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "小型龙卷风 敌方全体魔法风属性威力20(治愈 速度填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1462,7 +1462,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "小型闪电 敌方单体魔法雷属性威力60(奈米机械破坏I 麻痹电网)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1502,7 +1502,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "玩具火焰弹 敌方单体物理火属性威力60 10%敌人INT-10%(力量能源I 爆裂火焰I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1542,7 +1542,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "恶梦之眼 敌方单体魔法暗属性威力50 吸取10%HP 混乱(破坏加农I 死亡召唤) ",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1582,7 +1582,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "幼龙吐息 敌方单体物理火属性威力75(云雾汽油弹I 重度强袭I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1616,7 +1616,7 @@ const digimonRelations = [
     "name": "多路兽",
     "cost": "5",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "race": "资料",
@@ -1658,7 +1658,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "黑暗齿轮 敌方单体物理暗属性威力70 必中(奈米机械破坏I 天国闪电I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1698,7 +1698,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "空气炮 敌方单体魔法风属性威力50 10%自身SPD+10%(音速空洞I 智能填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1738,7 +1738,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "五连闪 敌方单体物理土属性威力20 攻击5次 命中率80(治愈 云雾汽油弹III)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1778,7 +1778,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "毒蔓藤 敌方单体物理木属性威力65 10%中毒(新月之叶I 反剧毒)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1818,7 +1818,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "小恶魔飞镖 敌方全体物理暗属性威力20 吸取5%HP(混乱鬼火 攻击破坏)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1858,7 +1858,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "魔法火焰 敌方单体魔法火属性威力55 10%自身INT+10%(音速空洞I 智能填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1898,7 +1898,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "手里里剑 敌方全体物理风属性威力35(速度填充 反麻痹)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1934,7 +1934,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "齿轮刺针 敌方单体物理雷属性威力25 攻击3次(奈米机械破坏I 正极锁链)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -1974,7 +1974,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "V仔头槌 敌方单体物理无属性威力75(重度强袭I 烈风利爪I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2014,7 +2014,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "小狗怒吼 敌方单体光属性中威力INT贯穿攻击 10%麻痹(神圣之光I 治愈)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2054,7 +2054,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "麻痹电击 敌方单体魔法雷属性威力55 10%麻痹(寒冰之箭I 反麻痹)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2094,7 +2094,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "羽毛回力镖 敌方单体风属性中威力DEF贯穿攻击(烈风利爪I 音速空洞I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2134,7 +2134,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "剧毒超蘑菇 敌方单体物理木属性威力60 各10%几率产生除即死以外的异常状态(剧毒陷阱 新月之叶I)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2170,7 +2170,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "冲击重拳 敌方单体物理无属性威力75(重度强袭I 攻击填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2210,7 +2210,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "坚果射击 敌方单体物理木属性威力15 攻击2次(剧毒陷阱 反剧毒)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2246,7 +2246,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "宏伟十字架 敌方全体光属性中威力INT贯穿攻击(复活 神圣之光III 闪耀镭射II X灵气)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2274,7 +2274,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "泪珠射击 敌方单体魔法水属性威力65(治愈 偶像泡沫)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2310,7 +2310,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "狐叶楔 敌方单体魔法木属性威力25(盖亚元素I 反混乱)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2350,7 +2350,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "爆裂寒冰 敌方单体魔法水属性威力60(雄伟巨石I 智能破坏)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2390,7 +2390,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "粘性罗网 敌方单体物理木属性威力65 30%敌人SPD-10%(剧毒陷阱 速度破坏)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -2430,7 +2430,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "冰霜之爪 敌方单体水属性中威力DEF贯穿攻击(寒冰之箭II 精神耗竭 地狱粉碎I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2478,7 +2478,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "冰球炸弹 敌方单体物理水属性威力80 易暴击(寒冰之箭II 彗星重锤II 大海波浪I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2514,7 +2514,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "碎裂角 敌方单体物理风属性威力85 15%晕眩(烈风利爪II 音速空洞II 狂风暴雨I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2562,7 +2562,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "火龙烈焰拳 敌方单体物理火属性威力45 攻击2次(云雾汽油弹II 流星坠落I 加速增幅器)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2600,7 +2600,7 @@ const digimonRelations = [
     "name": "阿卡迪兽成熟期",
     "cost": "8",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "病毒",
@@ -2642,7 +2642,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "尾巴锤击 敌方单体物理土属性威力85 15%晕眩(雄伟巨石I 反晕眩 地牛翻身I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2690,7 +2690,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "鱼叉火神炮 敌方单体物理火属性威力90 必中(寒冰之箭II 大海波浪I 治愈)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2734,7 +2734,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "雷云闪光  敌方单体魔法雷属性威力75 10%麻痹(梦魇II 地狱粉碎I 音速空洞II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2778,7 +2778,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "双重胜利者 敌方单体物理光属性威力90 易暴击(速度填充 神圣钩爪II 重度强袭II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2818,7 +2818,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "吸命树枝 敌方单体物理木属性威力75 吸取20%HP(盖亚元素II 新月之叶II 力量能源II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2862,7 +2862,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "旋针 敌方全体物理风属性威力45(音速空洞II 狂风暴雨I 云雾汽油弹II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -2904,7 +2904,7 @@ const digimonRelations = [
     "name": "V仔兽EX",
     "cost": "8",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "自由",
@@ -2954,7 +2954,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "天堂之拳 敌方单体物理光属性威力80 10%自身ATK或INT+10%(神圣之光II X治愈 闪耀镭射I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3002,7 +3002,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "霸王拳 敌方单体物理暗属性威力90(彗星重锤II 暴击填充 破坏加农II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3046,7 +3046,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "毁灭榴弹炮 敌方全体物理火属性威力40 必中(奈米机械破坏II 守备填充 天国闪电II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3092,7 +3092,7 @@ const digimonRelations = [
     "name": "守卫兽(金)",
     "cost": "6",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "自由",
@@ -3140,7 +3140,7 @@ const digimonRelations = [
     "name": "伽奥伽兽",
     "cost": "8",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "资料",
@@ -3182,7 +3182,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "百万爆破 敌方单体魔法雷属性威力80(新月之叶II 智能填充 天国闪电II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3222,7 +3222,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "熟成大便 敌方单体物理土属性威力75 30%敌人INT-10%(偶像泡沫 守备破坏 守备填充 )",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3262,7 +3262,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "达达勾拳 敌方单体物理无属性威力90 10%晕眩(麻痹电网 闪电坠击I 马赫突击I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3306,7 +3306,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "妖狐火焰  敌方单体物理火属性威力85 10%自身SPD+10%(速度填充 雄伟巨石II 疾速逃脱)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3350,7 +3350,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "冰结之牙 敌方单体物理水属性威力85 10%自身SPD+10%(速度填充 雄伟巨石II 敏捷填充)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3394,7 +3394,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "鬼火玉 敌方全体魔法火属性威力30(爆裂火焰II 混乱鬼火 智能填充)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3434,7 +3434,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "排射火焰 敌方单体物理火属性威力85 10%自身ATK+10%(云雾汽油弹II 彗星重锤II 正极锁链)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3482,7 +3482,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "资料粉碎者 敌方单体物理暗属性威力90 5%即死(破坏加农II 奈米机械破坏II 守备破坏)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3534,7 +3534,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "超级火焰 敌方单体物理火属性威力95(云雾汽油弹II 重度强袭II 加速增幅器)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3576,7 +3576,7 @@ const digimonRelations = [
     "name": "暴龙兽(蓝)",
     "cost": "8",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "病毒",
@@ -3622,7 +3622,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "超时空破碎 敌方单体HP-150 30%敌人SPD-10%(天国闪电II 治愈 偶像泡沫)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3670,7 +3670,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "剪刀臂 敌方单体无属性中威力DEF贯穿攻击(新月之叶II 破坏加农II 狂风暴雨I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3710,7 +3710,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "碰撞交响乐 敌方单体无属性中威力INT贯穿攻击(发电水流II 攻击破坏 反睡眠)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3750,7 +3750,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "超恶臭 敌方单体物理土属性威力75 15%混乱或麻痹(剧毒陷阱 守备填充 奈米机械破坏II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3788,7 +3788,7 @@ const digimonRelations = [
     "name": "核龙兽(蓝)",
     "cost": "8",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "疫苗",
@@ -3824,7 +3824,7 @@ const digimonRelations = [
     "name": "核龙兽(绿)",
     "cost": "8",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "病毒",
@@ -3862,7 +3862,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "黄金榴莲冲刺 敌方全体物理光属性威力10 1%即死(反液晶化 复活 结构痛击)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3906,7 +3906,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "绯红诅咒 敌方全体物理火属性威力45(地牛翻身I 彗星重锤II 流星坠落I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3946,7 +3946,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "超高热量 敌方单体物理火属性威力85 10%敌人DEF-10%(暴击填充 地牛翻身I 交叉拳)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -3986,7 +3986,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "贯穿刀刃 敌方单体物理暗属性威力25 攻击3~5次 吸取10%HP(破坏加农II 梦魇II 物理耗竭)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4030,7 +4030,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "阳光射线 敌方单体魔法光属性威力80(盖亚元素II 神圣之光II X治愈)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4074,7 +4074,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "寒冰箭 敌方单体魔法水属性威力75 10%敌方SPD-10%(发电水流II 反混乱 反射镜)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4118,7 +4118,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "多变夺命镖 敌方单体物理水属性威力30 攻击3次(寒冰之箭II 负极锁链 重度强袭II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4158,7 +4158,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "百万爆破 敌方全体物理火属性威力45(云雾汽油弹II 重度强袭II 交叉拳)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4202,7 +4202,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "大便 敌方单体物理土属性威力75 30%敌人SPD-10%(混乱鬼火 智能破坏 梦魇II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4246,7 +4246,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "流星风暴 敌方全体物理无属性威力40 命中率90 易暴击(重度强袭II 神圣钩爪II 力量能源II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4298,7 +4298,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "终结刺钉 敌方单体木属性中威力DEF贯穿攻击 易暴击(新月之叶II 狂风暴雨I 烈风利爪II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4346,7 +4346,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "强袭獠牙 敌方单体物理火属性威力90 10%眩晕(流星坠落I 守备破坏 马赫突击II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4386,7 +4386,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "旋斩尾刀 敌方单体物理无属性威力15 攻击4~8次 20%自身ATK+10%(马赫突击I 重度强袭II 暴击填充)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4422,7 +4422,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "冰晶云 敌方全体魔法水属性威力30(发电水流II 反射镜 X治愈)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4462,7 +4462,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "高压加农炮 敌方单体物理火属性威力200 硬直一回合(奈米机械破坏II 命中填充 晕眩冲击)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4510,7 +4510,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "巨重拳 敌方单体物理土属性威力85 10%敌人DEF-10%(彗星重锤II 灵气 地牛翻身I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4550,7 +4550,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "火焰吐息 敌方单体物理火属性威力90 容易暴击(加速增幅器 云雾汽油弹II 重度强袭I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4594,7 +4594,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "猫猫拳 敌方单体HP-150 60%混乱(神圣之光II 灵气 复活)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4642,7 +4642,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "死亡之爪 敌方单体HP-200 吸取20%HP(破坏加农II 物理耗竭 地狱粉碎I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4694,7 +4694,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "岩兔烈斗 敌方单体物理无属性威力30 攻击3次 易暴击(彗星重锤II 暴击填充 马赫突击I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4730,7 +4730,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "尖尖碰碰拳 敌方全体物理木属性威力40 5%麻痹(新月之叶II 反麻痹 麻痹电网)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4774,7 +4774,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "强力金属弹 敌方单体物理无属性威力90 30%自身ATK+10%(彗星重锤II 守备填充 速度填充)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4822,7 +4822,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "粪便灌篮 敌方单体物理土属性威力80 30%敌人DEF-10%(彗星重锤II 攻击破坏 晕眩冲击)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4866,7 +4866,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "大便投掷 敌方单体物理土属性威力75 30%敌人ATK-10%(剧毒陷阱 速度破坏 寒冰之箭II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4906,7 +4906,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "陨石巨翼 敌方全体魔法火属性威力25 10%自身SPD+10%(爆裂火焰II 反剧毒 流星坠落I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4954,7 +4954,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "五连十字 敌方单体物理土属性威力55 攻击2次 命中率90(攻击填充 重度强袭II 流星坠落II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -4994,7 +4994,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "死亡魅惑 敌方单体HP-10%(梦魇II 敏捷填充 物理耗竭)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5042,7 +5042,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "V疾风矢 敌方单体物理火属性威力110 反伤5%(烈风利爪II 正极锁链 神圣钩爪II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5090,7 +5090,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "无限之梦 敌方全体各50%产生剧毒.混乱.麻痹   飞踢 敌方单体物理木属性威力95(盖亚元素II 符文之森I 灵气)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5122,7 +5122,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "稀有金属大便 敌方单体物理土属性威力80 击退(反BUG 智能破坏 角色倒置)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5166,7 +5166,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "猫猫拳 敌方单体HP-150 60%混乱(梦魇II 雄伟巨石II 力量能源II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5214,7 +5214,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "超恶臭喷射 敌方全体魔法土属性威力20 30%敌人SPD-10%(盖亚元素II 速度破坏 剧毒陷阱)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5262,7 +5262,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "苦无羽 敌方单体物理风属性威力30 攻击3次(烈风利爪II 敏捷填充 疾速逃脱)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5302,7 +5302,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "火焰重拳 敌方单体物理火属性威力80 30%自身ATK+10%(攻击填充 云雾汽油弹II 爆裂火焰II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5354,7 +5354,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "火山强击 敌方单体物理火属性威力95(彗星重锤II 加速增幅器 地牛翻身I)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5390,7 +5390,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "绝对零度拳 敌方单体物理水属性威力80 10%晕眩(寒冰之箭II 大海波浪I 灵气)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5438,7 +5438,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "神圣射击 敌方单体魔法光属性威力75 10%自身INT+10%(音速空洞II 速度填充 神圣之光II)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5474,7 +5474,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "金属冲击 敌方单体物理无属性威力90 易暴击(重度强袭II 彗星重锤II 晕眩冲击)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5522,7 +5522,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "烂泥 敌方全体物理土属性40 10%中毒(剧毒陷阱 马赫突击I 角色倒置)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5574,7 +5574,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "兽王拳 敌方单体物理土属性威力95(彗星重锤II 攻击填充 神圣钩爪II)   ",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5626,7 +5626,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "月夜水弹 敌方单体面魔法水属性威力60 50%睡眠(寒冰之箭II 力量能源II 交叉拳)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5666,7 +5666,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "驱驱裂空斩 敌方单体物理无属性威力30 攻击2~4次(神圣钩爪II 闪耀镭射I 灵气)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5714,7 +5714,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "涡轮螯针 敌方单体物理雷属性威力25 攻击四次(奈米机械破坏II 命中填充 麻痹电网)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -5762,7 +5762,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "超大角炮 敌方单体雷属性高威力INT贯穿攻击(符文之森I 速度破坏 盖亚元素III 符文之森II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -5800,7 +5800,7 @@ const digimonRelations = [
     "name": "阿卡迪兽完全体",
     "cost": "4",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "race": "病毒",
@@ -5842,7 +5842,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "万斧斩 敌方单体物理风属性威力60 攻击2次(马赫突击I 反麻痹 马赫突击II 力量能源III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -5894,7 +5894,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "旋转能量剑 敌方单体物理雷属性威力110 易暴击(正极锁链 灵气 奈米机械破坏III 音速空洞III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -5942,7 +5942,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "宇宙闪光 敌方全体魔法无属性威力75(地牛翻身I 流星坠落I 雄伟巨石III 力量能源III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -5990,7 +5990,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "地狱榴弹 敌方单体物理火属性威力30 攻击4次 50%敌人DEF-10%(破坏加农II 死亡召唤 马赫突击II 破坏加农III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6038,7 +6038,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "夜魔飞袭 敌方全体魔法暗属性65 吸取15%HP(地狱粉碎I 精神耗竭 梦魇III 破坏加农III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6094,7 +6094,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "超音炽热息 敌方单体物理火属性威力100 自身SPD+10%(速度破坏 马赫突击II 烈风利爪III 狂风暴雨II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6134,7 +6134,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "炎龙扫射 敌方单体物理火属性威力30 攻击3~6次(加速增幅器 云雾汽油弹III 地牛翻身II 流星坠落II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6170,7 +6170,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "神龙冲击 敌方单体物理风属性威力250 反伤50%(正极锁链 速度填充 烈风利爪III 神圣钩爪III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6218,7 +6218,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "爱心光线 敌方全体暗属性中威力INT贯穿 20%麻痹 (地狱粉碎I 疾速逃脱 反射镜 梦魇III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6270,7 +6270,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "神圣弓箭 敌方单体魔法光属性威力100 必中 解除敌人基本状态强化(闪耀镭射I 灵气 复活 神圣之光III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6314,7 +6314,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "亚米加剪刀臂 敌方单体无属性高威力DEF贯穿攻击(闪电坠击I 剧毒陷阱 命中填充 新月之叶III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6354,7 +6354,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "影翼斩 敌方全体魔法火属性威力75(流星坠落I 狂风暴雨I 爆裂火焰III 反射镜)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6402,7 +6402,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "流星快刀斩 敌方单体物理光属性90 自身SPD+20%(烈风利爪II 狂风暴雨I 神圣钩爪III 速度填充力场)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6438,7 +6438,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "种族灭绝飞弹 敌方全体物理火属性威力80 (晕眩冲击 云雾汽油弹II 烈风利爪III 天国闪电III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6490,7 +6490,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "幻影炸弹 敌方单体物理火属性威力130 或随机使敌方液晶化(晕眩冲击 流星坠落I 麻痹电网 奈米机械破坏III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6530,7 +6530,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "硝基毒针 敌方单体雷属性高威力DEF贯穿攻击(闪电坠击I 流星坠落I 奈米机械破坏III 混乱鬼火)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6578,7 +6578,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "粉碎铁屑拳 敌方单体物理土属性威力110 易暴击(地牛翻身I 交叉拳 彗星重锤III 地牛翻身II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6618,7 +6618,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "狮子兽波斩 敌方单体物理风属性威力55 攻击1~3次 40%晕眩(闪电坠击I 敏捷填充 奈米机械破坏III 交叉拳)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6662,7 +6662,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "十字利刃 敌方单体物理光属性威力110 易暴击(反BUG 神圣钩爪III 闪耀镭射I 重度强袭III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6714,7 +6714,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "月亮瞬舞 敌方单体物理水属性威力100 50%混乱(大海波浪I 发电水流II 闪耀镭射I 寒冰之箭III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6754,7 +6754,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "绝灭爪 敌方单体物理无属性威力115 10%即死(剧毒陷阱 攻击破坏 彗星重锤III 破坏加农III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6802,7 +6802,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "荒御魂 敌方全体魔法光属性威力75(闪耀镭射I 驱散 神圣之光III 雄伟巨石III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6838,7 +6838,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "樱桃炸弹 敌方全体物理木属性威力80(符文之森I 物理耗竭 符文之森II 新月之叶III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6882,7 +6882,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "冲上云霄 敌方单体魔法风属性威力110(狂风暴雨I 暴击填充 音速空洞III 烈风利爪III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6926,7 +6926,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "巨星上勾拳 敌方单体物理光属性威力110 (闪耀镭射I 反睡眠 马赫突击I 神圣钩爪III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -6970,7 +6970,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "堙灭猎鸟 敌方单体物理火属性威力110 50%敌人DEF-10%(加速增幅器 死亡召唤 破坏加农III 彗星重锤III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7012,7 +7012,7 @@ const digimonRelations = [
     "name": "丧尸撒旦兽",
     "cost": "12",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "race": "病毒",
@@ -7058,7 +7058,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "重锤火花 敌方单体物理雷属性威力115(狂风暴雨I 守备破坏 寒冰之箭III 大海波浪II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7106,7 +7106,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "三叉剑戟 敌方单体物理无属性威力40 攻击3次(流星坠落I 辅助终结 神圣钩爪III 复活)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7146,7 +7146,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "梵笔闪 敌方单体魔法暗属性威力110(地狱粉碎I 智能填充 梦魇III 地狱粉碎II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7186,7 +7186,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "禁忌三叉戟 敌方单体物理水属性115(混乱鬼火 大海波浪II 发电水流III 地狱粉碎II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7226,7 +7226,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "疾风天翔剑  敌方单体物理风属性威力40 攻击3次(闪耀镭射I 反剧毒 复活 神圣之光III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7266,7 +7266,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "地狱舞蹈 敌方单体物理木属性威力35 攻击3次 易暴击(新月之叶II 闪电坠击I 烈风利爪III 交叉拳)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7298,7 +7298,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "噩梦症候群 敌方单体HP-15% 40%睡眠(马赫突击I 符文之森I 死亡召唤 重度强袭III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7338,7 +7338,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "重金属火焰 敌方单体物理火属性威力110 自身DEF+10%(速度破坏 物理耗竭 彗星重锤III 云雾汽油弹III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7382,7 +7382,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "调和 敌方单体物理无属性威力115 易暴击(敏捷填充 神圣钩爪II 重度强袭III 马赫突击II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7420,7 +7420,7 @@ const digimonRelations = [
     "name": "怪蛙皇",
     "cost": "12",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "race": "病毒",
@@ -7466,7 +7466,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "三角突击 敌方单体物理土属性威力150 晕眩 命中率50(地牛翻身I 命中填充 云雾汽油弹II 彗星重锤III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7510,7 +7510,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "金属流星 敌方单体物理土属性威力115(地牛翻身I 攻击破坏 云雾汽油弹III 交叉拳)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7562,7 +7562,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "狂暴大剑 秒杀敌方单体 命中率30(马赫突击I 反混乱 重度强袭III 马赫突击II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7614,7 +7614,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "插入式炸弹 敌方单体魔法火属性威力80 30%敌人基础状态-10%(麻痹电网 物理耗竭 天国闪电III 力量能源III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7654,7 +7654,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "死亡火箭炮 敌方全体物理光属性威力40 攻击2次(马赫突击I 闪电坠击I 重度强袭III 交叉拳)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7682,7 +7682,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "冰兽拳 敌方单体物理水属性威力110 40%晕眩(大海波浪I 敏捷填充 发电水流III 寒冰之箭III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7726,7 +7726,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "动物爪子 敌方单体物理土属性威力115(马赫突击I 治愈 重度强袭II 彗星重锤III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7770,7 +7770,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "不给糖就捣蛋 敌方单体物理无属性威力100 敌方INT-10%(地牛翻身I 流星坠落I 彗星重锤III 结构痛击)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7818,7 +7818,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "位元炸弹 敌方单体物理魔法火属性威力110(闪耀镭射I 大海波浪I 神圣之光III X治愈)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7862,7 +7862,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "高热波 敌方全体魔法火属性威力75(音速空洞II 闪耀镭射I 速度填充 音速空洞III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7906,7 +7906,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "灵魂捕食者 敌方单体暗属性高威力INT贯穿攻击 10%即死(地狱粉碎I 死亡召唤 梦魇III 地狱粉碎II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7950,7 +7950,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "黑暗瞳孔 敌方单体物理暗属性威力110 80%中毒(反液晶化 结构痛击 负极锁链 梦魇III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -7994,7 +7994,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "寒冷火花 敌方单体物理水属性威力100 自身INT+10%(流星坠落I 智能破坏 爆裂火焰III 云雾汽油弹III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8046,7 +8046,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "恶魔飞吻 敌方单体魔法暗属性威力95 40%液晶化(剧毒陷阱 地狱粉碎I 角色倒置 梦魇III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8086,7 +8086,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "大海啸 敌方全体魔法水属性威力75(大海波浪I X治愈 发电水流III 寒冰之箭III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8130,7 +8130,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "天国之斗 敌方单体魔法光属性威力100 10%即死(闪耀镭射I X治愈 神圣之光III 复活)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8182,7 +8182,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "声波大CRT  敌方全体物理无属性中威力DEF贯穿攻击 20%麻痹(正极锁链 马赫突击I 地牛翻身I 云雾汽油弹III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8220,7 +8220,7 @@ const digimonRelations = [
     "name": "斗牛士兽",
     "cost": "12",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "race": "病毒",
@@ -8262,7 +8262,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "胜利拳击 敌方单体物理无属性威力115 40%晕眩(闪电坠击I 反晕眩 烈风利爪III 狂风暴雨II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8314,7 +8314,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "微笑炸弹 敌方单体物理火属性威力110 必中(地牛翻身I 疾速逃脱 彗星重锤III 地牛翻身II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8354,7 +8354,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "轰雷枪 敌方单体魔法雷属性威力105 40%麻痹(偶像泡沫 智能破坏 发电水流III 天国闪电III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8406,7 +8406,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "种族灭绝攻击 敌方单体物理火属性威力110 易暴击(混乱鬼火 云雾汽油弹II 狂风暴雨II 烈风利爪III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8458,7 +8458,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "原子爆焰 敌方单体物理雷属性威力250 硬直一回合(正极锁链 守备破坏 云雾汽油弹III 神圣钩爪III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8510,7 +8510,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "究极破坏炮 敌方单体物理火属性威力115(马赫突击I 攻击填充 流星坠落II 云雾汽油弹III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8552,7 +8552,7 @@ const digimonRelations = [
     "name": "机械暴龙兽(蓝)",
     "cost": "4",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "race": "病毒",
@@ -8606,7 +8606,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "核子镭射光 敌方单体雷属性中威力DEF贯穿攻击 自身DEF+10%(麻痹电网 守备填充 爆裂火焰III 奈米机械破坏III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8654,7 +8654,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "能量炸弹 敌方单体魔法雷属性威力110 必中(疾速逃脱 命中填充 奈米机械破坏III 爆裂火焰III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8698,7 +8698,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "爱心一击 恢复我方单体HP 提升物攻 防御 魔法10% (马赫突击I 符文之森I 混乱鬼火 重度强袭III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8742,7 +8742,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "瓮布都神 敌方单体魔法光属性威力110(狂风暴雨I 闪电坠击I 音速空洞III 反射镜)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8790,7 +8790,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "三叉戟左轮  敌方单体物理火属性威力40 攻击3次(正极锁链 命中填充 流星坠落II 云雾汽油弹III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8838,7 +8838,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "丁香骤雨 敌方全体魔法木属性威力60 40%中毒(符文之森I 灵气 符文之森II 盖亚元素III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8882,7 +8882,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "黄金三角 敌方单体魔法雷属性威力90 10%自身基础状态+10%(闪电坠击I 流星坠落I 闪电坠击II 奈米机械破坏III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8918,7 +8918,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "花仙炮 敌方单体魔法木属性威力105 50%麻痹 (符文之森I X治愈 盖亚元素III 符文之森II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8962,7 +8962,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "生死交错 敌方单体魔法无属性威力130 10%异常 5%即死(闪耀镭射II 地狱粉碎II 精神耗竭 地狱粉碎III 闪耀镭射III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -8986,7 +8986,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "黑暗波  敌方全体魔法暗属性威力35 攻击2次(地狱粉碎I 精神耗竭 梦魇III 地狱粉碎II)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -9032,7 +9032,7 @@ const digimonRelations = [
     "name": "兽人加鲁鲁",
     "cost": "12",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "race": "疫苗",
@@ -9080,7 +9080,7 @@ const digimonRelations = [
     "name": "黑兽人加鲁鲁",
     "cost": "12",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "race": "病毒",
@@ -9126,7 +9126,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "潘朵拉对话 敌方全体HP-20% 反伤HP的10%(地狱粉碎I 反射镜 地狱粉碎II 梦魇III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -9164,7 +9164,7 @@ const digimonRelations = [
     "name": "阿卡迪兽究极体",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "病毒",
@@ -9198,7 +9198,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "圣剑开端之刃 敌方单体物理光属性威力150  数码之魂  敌方全体魔法无属性威力95 5%即死(力量能源III 智能填充力场 速度破坏力场 发电水流III 马赫突击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9230,7 +9230,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "闪光V字斩 敌方全体物理光属性威力100 必中 自身SPD+10%  究极圣剑 敌方单体物理风属性威力65 攻击2次(烈风利爪III 智能填充力场 速度填充力场 狂风暴雨II 狂风暴雨III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9262,7 +9262,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "脑部破裂 敌方单体魔法雷属性威力115 50%混乱(攻击破坏力场 天国闪电III 遗失锁链 闪电坠击II 角色倒置)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9296,7 +9296,7 @@ const digimonRelations = [
     "name": "帝皇龙甲兽DM",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "自由",
@@ -9332,7 +9332,7 @@ const digimonRelations = [
     "name": "帝皇龙甲兽FM",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "自由",
@@ -9358,7 +9358,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "北极暴风雪 敌方单体物理水属性威力125 40%晕眩(寒冰之箭III X治愈 智能填充力场 盖亚元素III 大海波浪III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9394,7 +9394,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "芬里尔之剑 敌方单体物理水属性威力130 15%即死(神圣之光III 最终治愈 速度填充力场 狂风暴雨III 完美复活)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9430,7 +9430,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "极光波动 敌方全体魔法光属性威力80 必中 解除自身状态异常不利效果(神圣之光III 安全守护 最终灵气 闪耀镭射III 完美复活)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9462,7 +9462,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "剧毒流注 敌方单体物理暗属性威力135 50%中毒(破坏加农III 死亡召唤 物理耗竭 守备破坏力场 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9502,7 +9502,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "盖亚能量炮 敌方全体物理火属性威力90 30%自身ATK+20%    神圣龙卷风 敌方单体无属性高威力DEF贯穿攻击 (流星坠落II 云雾汽油弹III 攻击填充力场 重度强袭 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9534,7 +9534,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "伊甸园标枪  敌方单体魔法光属性威力120 30%自身INT+20%(闪耀镭射II 完美复活 最终灵气 神圣之光III 闪耀镭射III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9562,7 +9562,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "燐火斩 敌方单体物理火属性威力70 攻击2次(死亡召唤 云雾汽油弹III 守备破坏力场 流星坠落II 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9598,7 +9598,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "炎龙击 敌方单体物理火属性威力140(云雾汽油弹III 烈风利爪III 晕眩冲击 地牛翻身II 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9622,7 +9622,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "恶魔灾难 敌方单体物理暗属性威力140   犹大环监狱  敌方单体魔法暗属性威力115 必中 解除自身能力下降(破坏加农III 智能破坏力场 死亡召唤 发电水流III 大海波浪III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9650,7 +9650,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "高能无限加农炮 敌方全体物理雷属性威力115   终极毁灭炮 敌方单体雷属性高威力DEF贯穿攻击 剧毒 命中率80(马赫突击II 加速增幅器 奈米机械破坏III 闪电坠击II 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9674,7 +9674,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "地神！神鸣！神驰！亲父！敌方单体物理火属性威力35 攻击4次   掀饭桌 敌方全体物理土属性威力100 易暴击 命中率70(云雾汽油弹III 加速增幅器 攻击填充力场 流星坠落II 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9706,7 +9706,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "耍猴戏 敌人单体基本状态-30% 连击率下降(地牛翻身II 攻击填充力场 遗失锁链 彗星重锤III 马赫突击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9738,7 +9738,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "胎藏界曼荼罗 敌方全体魔法暗属性威力70 解除对方提升的闪避暴击命中提升 必中(梦魇III 地狱粉碎II 状态屏障 遗失锁链 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9770,7 +9770,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "次元剪刀 敌方单体木属性高威力DEF贯穿攻击 易暴击(物理耗竭 新月之叶II 狂风暴雨II 攻击破坏力场 速度填充力场)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9810,7 +9810,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "水晶革命 敌方全体魔法水属性威力90 吸取20%HP   美杜莎之眼 单体敌人DEF-10% 混乱(梦魇III 混乱鬼火 寒冰之箭III 智能破坏力场 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9842,7 +9842,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "破坏崩溃 敌方全体魔法土属性威力85(天国闪电III 反液晶化 守备填充力场 闪电坠击II 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9872,7 +9872,7 @@ const digimonRelations = [
     "name": "狮鹫兽",
     "cost": "18",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "资料",
@@ -9906,7 +9906,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "终结华尔兹 敌方全体物理无属性威力35 攻击3次  神之庇佑 到下回合前无敌(雄伟巨石III 地牛翻身II 守备填充力场 盖亚元素III 地牛翻身III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -9932,7 +9932,7 @@ const digimonRelations = [
     "name": "基路比兽(恶)",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "病毒",
@@ -9964,7 +9964,7 @@ const digimonRelations = [
     "name": "基路比兽(善)",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "疫苗",
@@ -9998,7 +9998,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "神之烈焰 敌方全体物理光属性威力100(神圣钩爪III 云雾汽油弹III X灵气 辅助终结 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10034,7 +10034,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "粉碎之爪 敌方单体物理土属性威力65 攻击2次(烈风利爪III 加速增幅器 狂风暴雨II 守备破坏力场 狂风暴雨III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10070,7 +10070,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "金刚界曼荼罗 敌方全体魔法光属性威力70 解除敌人基本状态提升(回复 闪耀镭射II 最终治愈 神圣之光III 状态屏障)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10102,7 +10102,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "辙剑制裁 敌方单体物理无属性威力30 攻击5次   剑灵 到下回合受伤无效 受到物理或魔法攻击 进入反击(守备填充力场 复活 攻击填充力场 马赫突击III 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10130,7 +10130,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "大地暴龙剑 敌方单体物理火属性威力130 自身ATK+10%(神圣钩爪III 灵气 地牛翻身II 顶级锁链 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10162,7 +10162,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "终极闪烁爆裂 敌方全体物理火属性威力200 自身ATK-50% 命中率90(攻击填充 攻击破坏力场 重度强袭III 加速增幅器 状态屏障)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10186,7 +10186,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "审判飞脚  敌方单体物理无属性威力130 5%自身ATK+50%(神圣钩爪III 加速增幅器 交叉拳 复活 顶级锁链)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10226,7 +10226,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "虹桥 敌方单体魔法光属性威力120 自身SPD+10%  奥丁之息 敌方全体物理水属性威力105 10%睡眠(闪耀镭射II 神圣钩爪III 闪耀镭射III 回复 最终治愈)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10258,7 +10258,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "天龙斩破 敌方单体无属性高威力DEF贯穿攻击 自身SPD+10%(重度强袭III 攻击填充力场 速度填充力场 X灵气 狂风暴雨III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10290,7 +10290,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "七重天堂 敌方全体魔法光属性威力15 攻击7次(神圣之光III 闪耀镭射II 最终治愈 闪耀镭射III 完美复活)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10322,7 +10322,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "爆裂轰击 敌方全体物理火属性威力50 攻击2次(天国闪电III 智能填充力场 闪电坠击II 盖亚元素III 顶级锁链)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10354,7 +10354,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "黑暗咆哮 敌方单体物理暗属性威力130 命中率90 易暴击(暴击填充 加速增幅器 守备破坏力场 奈米机械破坏III 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10386,7 +10386,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "马赫刺针V  敌方单体物理雷属性威力20 攻击6次 易暴击(奈米机械破坏III 速度填充力场 新月之叶III 反射镜 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10426,7 +10426,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "魂魄芯击 敌方单体土属性高威力DEF贯穿攻击(地牛翻身II 彗星重锤III 守备破坏力场 新月之叶III 地牛翻身III) ",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10462,7 +10462,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "虫之爆闪 敌方全体火属性高威力DEF贯穿 硬直一回合(新月之叶III 闪电坠击II 流星坠落II 速度破坏力场 速度填充力场)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10486,7 +10486,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "晚安之月  敌方单体魔法光属性威力120 50%睡眠(驱散 反射镜 梦魇III 回复 大海波浪)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10522,7 +10522,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "大灾难  敌方单体物理火属性威力80 攻击3次 硬直一回合(破坏加农III 死亡召唤 马赫突击II 守备破坏力场 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10562,7 +10562,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "火焰地狱 敌方群体魔法火属性威力90(梦魇III 闪电坠击II 智能破坏力场 爆裂火焰III 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10598,7 +10598,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "皇家枪击 敌方单体物理光属性威力140 50%几率自身DEF+10%   极乐净土 敌方单体魔法光属性威力115 必中 解除自身能力下降(神圣钩爪III X治愈 守备填充力场 爆裂火焰III 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10626,7 +10626,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "飞龙之息 敌方全体物理风属性威力110 反伤20%  龙之怒吼 敌方单体物理火属性威力60 攻击2次 吸取50%HP (烈风利爪III 狂风暴雨II 流星坠落II 攻击破坏力场 狂风暴雨III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10658,7 +10658,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "双重境界 敌方单体物理无属性威力150(重度强袭III 辅助终结 交叉拳 攻击填充力场 马赫突击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10688,7 +10688,7 @@ const digimonRelations = [
     "name": "芳香兽",
     "cost": "22",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "资料",
@@ -10716,7 +10716,7 @@ const digimonRelations = [
     "name": "芳香兽LM",
     "cost": "25",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "资料",
@@ -10742,7 +10742,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "勇者金徽 敌方单体物理暗属性威力200 硬直一回合(云雾汽油弹III 加速增幅器 彗星重锤III 攻击填充力场 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10774,7 +10774,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "涡流贯刺 敌方单体水属性DEF贯穿攻击 必中(寒冰之箭III 偶像泡沫 反射镜 大海波浪II 发电水流III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10806,7 +10806,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "原子射线 敌方单体物理雷属性威力125 40%晕眩(闪电坠击II 力量能源III 天国闪电III 守备填充力场 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10838,7 +10838,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "火山驱动技  敌方单体物理火属性威力130 易暴击(马赫突击II 云雾汽油弹III 交叉拳 流星坠落II 马赫突击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10870,7 +10870,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "群魔殿迷失  敌方全体魔法暗属性威力80 吸收20%HP(梦魇III 地狱粉碎II 爆裂火焰III 精神耗竭 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10902,7 +10902,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "闪光番长拳 敌方单体物理光属性威力130 75%晕眩(地牛翻身II 加速增幅器 彗星重锤III 攻击填充力场 地牛翻身III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -10944,7 +10944,7 @@ const digimonRelations = [
     "name": "小丑皇",
     "cost": "28",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "病毒",
@@ -10982,7 +10982,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "爆炸铁锤 敌方单体物理土属性威力125 50%晕眩(新月之叶III 雄伟巨石III 智能破坏力场 符文之森II 符文之森III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11018,7 +11018,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "白金粪便  敌方单体物理土属性威力35 攻击4次  30%敌人ATK-10%(疾速逃脱 攻击破坏力场 守备破坏力场 智能破坏力场 速度破坏力场)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11054,7 +11054,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "黑暗盖亚能量炮 敌方全体物理暗属性威力100 30%自身DEF+20%  黑暗龙卷风 敌方单体暗属性高威力DEF贯穿攻击(流星坠落II 云雾汽油弹III 守备填充力场 马赫突击II 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11086,7 +11086,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "微笑弹头 敌方单体物理无属性威力110 击退(负极锁链 疾速逃脱 力量能源III 智能填充力场 最终治愈)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11122,7 +11122,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "毁灭冲刺 敌方单体物理土属性威力25 攻击5次 易暴击(闪电坠击II 守备破坏力场 奈米机械破坏III 闪电坠击III 地牛翻身III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11158,7 +11158,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "悲痛之蓝 敌方全体水属性中威力INT贯穿攻击 25%睡眠(大海波浪II X灵气 发电水流III 状态屏障 大海波浪III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11194,7 +11194,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "千兆爆破 敌方单体魔法雷属性威力130(盖亚元素III 闪电坠击II 符文之森II 智能填充力场 符文之森III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11226,7 +11226,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "双重冲击 敌方单体物理暗属性威力20 攻击8次 命中率90(破坏加农III 物理耗竭 彗星重锤III 流星坠落II 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11254,7 +11254,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "混沌烈焰 敌方单体暗属性高威力INT贯穿攻击 吸取20%HP(烈风利爪III 加速增幅器 云雾汽油弹III 攻击填充力场 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11276,7 +11276,7 @@ const digimonRelations = [
     "name": "贝尔菲兽SM",
     "cost": "22",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "病毒",
@@ -11306,7 +11306,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "星光爆破 敌方全体魔法光属性威力90(爆裂火焰III 状态屏障 力量能源III 最终治愈 安全守护)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11338,7 +11338,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "神圣火焰 敌方全体魔法光属性威力95(闪耀镭射II 神圣之光III 完美复活 X灵气 闪耀镭射III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11370,7 +11370,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "战斧斯坦纳  敌方单体物理无属性威力130 40%混乱(奈米机械破坏III 交叉拳 速度填充力场 攻击破坏力场 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11402,7 +11402,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "破坏机关枪 敌方单体物理火属性威力150 自身DEF-10%(神圣钩爪III 破坏加农II 灵气 顶级锁链 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11424,7 +11424,7 @@ const digimonRelations = [
     "name": "铠甲加鲁鲁兽(分离)",
     "cost": "18",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "自由",
@@ -11450,7 +11450,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "混沌降临 敌方全体HP-25%(闪耀镭射III 地狱粉碎III 最终灵气 顶级锁链 安全守护)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11478,7 +11478,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "海洋之爱 回复全体战斗成员HP 并解除所有异常状态(发电水流III 大海波浪II 驱散 最终灵气 安全守护)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11508,7 +11508,7 @@ const digimonRelations = [
     "name": "密涅瓦兽",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "病毒",
@@ -11548,7 +11548,7 @@ const digimonRelations = [
     "name": "幻影伽奥伽兽",
     "cost": "1",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "资料",
@@ -11580,7 +11580,7 @@ const digimonRelations = [
     "name": "幻影伽奥伽兽BM",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "资料",
@@ -11606,7 +11606,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "无限大炮 敌方全体物理雷属性威力115 命中率80(马赫突击II 奈米机械破坏III 攻击填充力场 速度破坏力场 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11642,7 +11642,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "灭世烈焰 敌方单体物理火属性威力130(流星坠落II 云雾汽油弹III 破坏加农II 遗失锁链 流星坠落III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11678,7 +11678,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "蕉皮滑行 敌方单体魔法暗属性威力115 80%晕眩(疾速逃脱 智能破坏力场 地牛翻身II 遗失锁链 地牛翻身III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11714,7 +11714,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "优雅十字冻结者  敌方全体物理水属性威力45 攻击2次  绝对冷冻气 敌方单体魔法水属性威力120 25%麻痹(寒冰之箭III 灵气 速度填充力场 音速空洞III 大海波浪III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11744,7 +11744,7 @@ const digimonRelations = [
     "name": "钢铁加鲁鲁兽(黑)",
     "cost": "18",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "病毒",
@@ -11780,7 +11780,7 @@ const digimonRelations = [
     "name": "钢铁海龙兽",
     "cost": "8",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "资料",
@@ -11814,7 +11814,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "千打重击 敌方单体物理风属性威力15 攻击8次 易暴击(地牛翻身II 烈风利爪III 复活 音速空洞III 狂风暴雨III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11842,7 +11842,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "惊骇电磁炮 敌方单体物理雷属性威力125 50%麻痹(马赫突击II 奈米机械破坏III 守备填充力场 速度破坏力场 闪电坠击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11874,7 +11874,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "魔颚 敌方单体物理水属性威力145 15%即死(寒冰之箭III 雄伟巨石III 守备破坏力场 力量能源III 大海波浪III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11906,7 +11906,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "幻影苦痛 敌方单体暗属性特大威力INT贯穿攻击 35%中毒(地狱粉碎II 精神耗竭 梦魇III 攻击破坏力场 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11934,7 +11934,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "天之尾羽张 敌方全体魔法雷属性威力90(音速空洞III 灵气 狂风暴雨II 速度填充力场 狂风暴雨III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -11964,7 +11964,7 @@ const digimonRelations = [
     "name": "鸦神兽BM",
     "cost": "20",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "疫苗",
@@ -11990,7 +11990,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "螺旋假面舞蹈会 敌方单体物理暗属性威力30 攻击4次 30%几率自身SPD+20%   银色恐惧 敌方单体火属性特高威力DEF贯穿攻击 30%晕眩(破坏加农III 地狱粉碎II 速度破坏力场 盖亚元素III 地狱粉碎III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12018,7 +12018,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "荆棘之鞭 敌方单体物理木属性威力120 吸取50%HP 30%麻痹(符文之森II 盖亚元素III 最终灵气 智能填充力场 符文之森III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12050,7 +12050,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "诱惑之唇 敌方单体光属性高威力INT贯穿攻击 吸取50%HP(最终治愈 智能破坏力场 复活 安全守护 完美复活)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12074,7 +12074,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "七重幻想曲 敌方全体魔法光属性威力75 20%混乱(符文之森II 盖亚元素III X灵气 辅助终结 符文之森III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12106,7 +12106,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "终极爆炎炮 敌方单体物理火属性威力90 攻击3次 硬直一回合   黑雨 敌方全体物理暗属性威力110 20%混乱(地狱粉碎III 剧毒陷阱 马赫突击III 云雾汽油弹III 智能破坏力场)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12130,7 +12130,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "神之矩阵 敌方全体无属性高威力DEF贯穿攻击 吸取10%HP(重度强袭III 角色倒置 智能破坏力场 守备破坏力场 地狱粉碎III)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12154,7 +12154,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "王龙剑 究极战刃王龙剑 敌方单体无属性特高威力DEF贯穿攻击(重度强袭III 最终灵气 顶级锁链 神圣钩爪III 破坏加农III) ",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12182,7 +12182,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "奥米加之剑 敌方单体物理光属性威力150 30%液晶化(神圣之光III 智能填充力场 神圣钩爪III 回复 完美复活)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12206,7 +12206,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "大龙头之光荣 敌方单体物理雷属性威力145   龙魂冲击 敌方全体物理火属性威力100 附带击退效果(烈风利爪III 狂风暴雨II 流星坠落II 攻击破坏力场 狂风暴雨III)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12234,7 +12234,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "暴龙飓风剑  敌方全体物理火属性威力115   加鲁鲁加农炮 敌方单体水属性高威力INT贯穿攻击(神圣钩爪III 交叉拳 攻击填充力场 顶级锁链 神圣之光III)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12260,7 +12260,7 @@ const digimonRelations = [
     "name": "黑奥米加兽",
     "cost": "25",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "race": "疫苗",
@@ -12290,7 +12290,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "霸王两断剑 敌方单体物理无属性威力150 伤害值易浮动  黑暗阳焰 敌方单体暗属性特高威力INT贯穿攻击 50%液晶化(安全守护 死亡召唤 破坏加农III 神圣钩爪III 角色倒置)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12316,7 +12316,7 @@ const digimonRelations = [
     "name": "混沌兽VA",
     "cost": "25",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "race": "疫苗",
@@ -12346,7 +12346,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "天羽羽斩 敌方全体物理光属性威力110 必中   八雷神 敌方单体魔法雷属性威力20 攻击8次 30%麻痹(神圣钩爪III 闪耀镭射III 驱散 顶级锁链 完美复活)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12374,7 +12374,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "Quo Vadis 敌方单体光属性高威力DEF贯穿攻击 必中 10%即死(闪耀镭射III 马赫突击III 驱散 回复 最终治愈)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12398,7 +12398,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "暗黑天赋 敌方单体暗属性超高威力DEF贯穿攻击(破坏加农III 负极锁链 雄伟巨石III 智能破坏力场 地狱粉碎III) ",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12422,7 +12422,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "神之赎罪 敌方全体魔法光属性威力200 自身INT-50% 命中率90(梦魇III 智能破坏力场 马赫突击III 地狱粉碎III 辅助终结)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12446,7 +12446,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "烈焰拳 敌方全体物理火属性威力70(加速增幅器 交叉拳 云雾汽油弹III)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "装甲体"
     },
     "preItem": [
@@ -12470,7 +12470,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "闪金太阳风暴 敌方全体魔法光属性威力75 自身DEF+15%  等离子射击 敌方全体物理火属性威力35 攻击3次(地牛翻身II 复活 彗星重锤III 守备填充力场 地牛翻身III)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "装甲体"
     },
     "preItem": [
@@ -12496,7 +12496,7 @@ const digimonRelations = [
     "name": "拉比兽(盔甲)",
     "cost": "8",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "装甲体"
     },
     "race": "疫苗",
@@ -12526,7 +12526,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "热情摇滚魂 敌方单体物理火属性威力70(重度强袭I 晕眩冲击)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -12550,7 +12550,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "嗨爆摇滚魂  敌方单体物理火属性威力65 攻击2次   重金属火神炮 敌方全体物理火属性威力100(加速增幅器 交叉拳 速度填充力场 流星坠落III 马赫突击III)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -12574,7 +12574,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "居合刃 敌方单体无属性中威力DEF贯穿攻击(重度强袭I 暴击填充)",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "preItem": [
@@ -12606,7 +12606,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "徹甲刃 敌方单体无属性中威力DEF贯穿攻击 易暴击(重度强袭II 攻击填充 速度填充)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "preItem": [
@@ -12646,7 +12646,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "成龙刃 敌方单体土属性高威力DEF贯穿攻击(闪电坠击I 速度破坏 奈米机械破坏II 暴击填充)",
     "level": {
-      "index": 4,
+      "index": 5,
       "name": "完全体"
     },
     "preItem": [
@@ -12690,7 +12690,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "永世龙王刃  敌方单体雷属性高威力DEF贯穿攻击 易暴击(烈风利爪III 加速增幅器 奈米机械破坏III 攻击填充力场 马赫突击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12722,7 +12722,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "黑暗领域 敌方全体HP-444(死亡召唤 物理耗竭 精神耗竭 梦魇III 马赫突击III)",
     "level": {
-      "index": 6,
+      "index": 7,
       "name": "超究极体"
     },
     "preItem": [
@@ -12756,7 +12756,7 @@ const digimonRelations = [
     "name": "修女兽雪白",
     "cost": "4",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "race": "疫苗",
@@ -12792,7 +12792,7 @@ const digimonRelations = [
     "name": "修女兽B(觉醒)",
     "cost": "8",
     "level": {
-      "index": 2,
+      "index": 3,
       "name": "成长期"
     },
     "race": "疫苗",
@@ -12816,7 +12816,7 @@ const digimonRelations = [
     "name": "修女兽天蓝",
     "cost": "6",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "病毒",
@@ -12856,7 +12856,7 @@ const digimonRelations = [
     "name": "修女兽C(觉醒)",
     "cost": "18",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "成熟期"
     },
     "race": "病毒",
@@ -12880,7 +12880,7 @@ const digimonRelations = [
     "name": "阿尔法兽NX",
     "cost": "18",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "race": "疫苗",
@@ -12906,7 +12906,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "螺旋华舞 敌方单体物理暗属性威力30 攻击4次    急迫恐惧 敌方单体火属性特大威力DEF贯穿攻击   (加速增幅器 流星坠落III 地牛翻身III 闪电坠击III 马赫突击III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12930,7 +12930,7 @@ const digimonRelations = [
     "race": "资料",
     "skill": "灭绝 敌方全体魔法光属性威力80 必中   炽烈回马枪 敌方单体魔法暗属性威力110 敌人DEF-20%   (地狱粉碎III 攻击填充力场 智能填充力场 最终治愈 大海波浪III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12954,7 +12954,7 @@ const digimonRelations = [
     "race": "疫苗",
     "skill": "暴龙剑 敌方单体物理火属性威力130   加鲁鲁加农炮 敌方全体魔法水属性威力95   (X灵气 速度填充力场 状态屏障 安全守护 完美复活)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [
@@ -12978,7 +12978,7 @@ const digimonRelations = [
     "race": "病毒",
     "skill": "敌方单体物理光属性威力135 50%自身DEF-10%   极乐净土 敌方单体魔法光属性威力110 必中 解除自身基本状态下降   (加速增幅器 奈米机械破坏III 雄伟巨石III 新月之叶III 音速空洞III)",
     "level": {
-      "index": 5,
+      "index": 6,
       "name": "究极体"
     },
     "preItem": [

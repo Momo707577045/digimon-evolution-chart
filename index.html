@@ -65,7 +65,7 @@
       <div class="level" v-for="levelItem in levels" :key="levelItem.levelName">
         <div class="digimon-box" v-for="digimon in levelItem.showItem" :key="digimon.name"
           @click="selectDigimon(digimon)">
-          {{digimon.name}}
+          【{{digimon.number}}】{{digimon.name}}
         </div>
       </div>
     </section>
