@@ -10,8 +10,8 @@
   "skill": "数据消耗 敌方单体物理暗属性威力35 吸取30%HP(梦魇I)",
   "preItem": [
     {
-      "name": "指爪兽",
-      "number": "010"
+      "name": "水母兽",
+      "number": "001"
     }
   ],
   "nextItem": [
