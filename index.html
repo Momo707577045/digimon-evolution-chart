@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="毛静文,Momo">
+  <meta name="keywords" content="m3u8 下载工具, 毛静文的博客,Momo's Blog">
+  <meta name="description" content="m3u8 下载工具,无需下载软件,打开网站即可下载,自动检测,一键下载">
+  <title>m3u8 downloader</title>
+  <style>
+    /*全局设置*/
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body::-webkit-scrollbar {
+      display: none
+    }
+
+    p {
+      margin: 0;
+    }
+
+    [v-cloak] {
+      display: none;
+    }
+
+    #m-app {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      padding: 10px 50px 80px;
+      box-sizing: border-box;
+    }
+
+    .level {
+      padding: 20px 50px;
+      text-align: left;
+    }
+
+    .digimon-box {
+      display: inline-block;
+      margin: 10px 6px;
+      padding: 4px 10px;
+      color: white;
+      text-align: center;
+      border-radius: 4px;
+      cursor: help;
+      border: solid 1px #eeeeee;
+      background-color: #dddddd;
+      transition: 0.3s all;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section id="m-app" v-cloak>
+    <section class="level-container">
+      <div class="level" v-for="levelItem in levels" :key="levelItem.levelName">
+        <div class="digimon-box" v-for="digimon in levelItem.showItem" :key="digimon.name"
+          @click="selectDigimon(digimon)">
+          {{digimon.name}}
+        </div>
+      </div>
+    </section>
+
+    </template>
+  </section>
+</body>
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?1f12b0865d866ae1b93514870d93ce89";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<!--vue 前端框架-->
+<script src="https://upyun.luckly-mjw.cn/lib/vue.js"></script>
+<script src="./result.js"></script>
+
+<script>
+
+  // script注入
+  document.getElementById('m-loading') && document.getElementById('m-loading').remove()
+  new Vue({
+    el: '#m-app',
+
+    data() {
+      return {
+        levels: [],
+        levelSelects: [],
+        idToItem: {}
+      }
+    },
+
+    created() {
+      this.initData()
+    },
+
+    methods: {
+      initData() {
+        digimonRelations.forEach(item => {
+          this.idToItem[item.number] = item
+          const levelIndex = item.level.index - 1
+          this.levels[levelIndex] = this.levels[levelIndex] || {
+            levelName: item.level.name,
+            totalItems: [],
+            showItem: []
+          }
+          this.levels[levelIndex].totalItems.push(item)
+          this.levels[levelIndex].showItem.push(item)
+        });
+        this.levels = JSON.parse(JSON.stringify(this.levels))
+      },
+
+      selectDigimon(item) {
+        const levelIndex = item.level.index - 1
+        this.levels[levelIndex].showItem = [item]
+        this.levelSelects[levelIndex] = [item]
+
+        for (let index = levelIndex + 1; index < this.levels.length; index++) {
+          this.levels[index].showItem = this.levelSelects[index] || this.getItem(this.levels[index - 1].showItem, 'nextItem')
+        }
+
+        for (let index = levelIndex - 1; index > -1; index--) {
+          this.levels[index].showItem = this.levelSelects[index] || this.getItem(this.levels[index + 1].showItem, 'preItem')
+        }
+      },
+
+      getItem(sourceItems, type) {
+        const resultObj = {}
+        sourceItems.forEach(sourceItem => {
+          sourceItem[type].forEach(targetItem => {
+            if (targetItem.number > -1) {
+              resultObj[targetItem.number] = this.idToItem[targetItem.number]
+            }
+          })
+        })
+        return Object.values(resultObj)
+      }
+    }
+  })
+// script注入
+</script>
+
+</html>
