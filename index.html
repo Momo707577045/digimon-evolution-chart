@@ -97,7 +97,6 @@
     data() {
       return {
         levels: [],
-        levelSelects: [],
         idToItem: {}
       }
     },
@@ -125,22 +124,28 @@
       selectDigimon(item) {
         const levelIndex = item.level.index - 1
         this.levels[levelIndex].showItem = [item]
-        this.levelSelects[levelIndex] = [item]
 
         for (let index = levelIndex + 1; index < this.levels.length; index++) {
-          this.levels[index].showItem = this.levelSelects[index] || this.getItem(this.levels[index - 1].showItem, 'nextItem')
+          this.levels[index].showItem = this.getItem(this.levels[index - 1].showItem, 'nextItem')
         }
 
         for (let index = levelIndex - 1; index > -1; index--) {
-          this.levels[index].showItem = this.levelSelects[index] || this.getItem(this.levels[index + 1].showItem, 'preItem')
+          this.levels[index].showItem = this.getItem(this.levels[index + 1].showItem, 'preItem')
         }
+
+        this.idToItem = {}
+        this.levels.forEach(level => {
+          level.showItem.forEach(item => {
+            this.idToItem[item.number] = item
+          })
+        })
       },
 
       getItem(sourceItems, type) {
         const resultObj = {}
         sourceItems.forEach(sourceItem => {
           sourceItem[type].forEach(targetItem => {
-            if (targetItem.number > -1) {
+            if (targetItem.number > -1 && this.idToItem[targetItem.number]) {
               resultObj[targetItem.number] = this.idToItem[targetItem.number]
             }
           })
