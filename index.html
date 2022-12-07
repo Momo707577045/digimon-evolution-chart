@@ -41,19 +41,92 @@
     .level {
       padding: 20px 50px;
       text-align: left;
+      min-height: 200px;
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 200px;
     }
 
+    .level-1 {
+      background-image: url('./bg/bg-1.png');
+    }
+
+    .level-2 {
+      background-image: url('./bg/bg-2.png');
+    }
+
+    .level-3 {
+      background-image: url('./bg/bg-3.png');
+    }
+
+    .level-4 {
+      background-image: url('./bg/bg-4.png');
+    }
+
+    .level-5 {
+      background-image: url('./bg/bg-5.png');
+    }
+
+    .level-6 {
+      background-image: url('./bg/bg-6.png');
+    }
+
+    .level-7 {
+      background-image: url('./bg/bg-7.png');
+    }
+
+
     .digimon-box {
+      position: relative;
       display: inline-block;
       margin: 10px 6px;
       padding: 4px 10px;
       color: white;
       text-align: center;
       border-radius: 4px;
-      cursor: help;
+      cursor: pointer;
       border: solid 1px #eeeeee;
       background-color: #dddddd;
-      transition: 0.3s all;
+      transition: all 1s;
+      opacity: 1;
+    }
+
+    .digimon-icon-box {
+      position: absolute;
+      left: 50%;
+      bottom: 24px;
+      margin-left: -70px;
+      opacity: 0;
+      z-index: -1;
+      padding: 8px;
+      width: 140px;
+      height: 140px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      transition: all 0.5s;
+      background-color: #dddddd;
+    }
+
+    .digimon-icon {
+      width: 100%;
+    }
+
+    .digimon-box:hover .digimon-icon-box,
+    .digimon-box-selectd .digimon-icon-box {
+      z-index: 1;
+      opacity: 1;
+    }
+
+    .list-enter-active,
+    .list-leave-active {
+      position: absolute;
+      transition: all 1s;
+    }
+
+    .list-enter,
+    .list-leave-to {
+      opacity: 0;
+      transform: translateY(60px);
     }
   </style>
 </head>
@@ -62,11 +135,17 @@
 
   <section id="m-app" v-cloak>
     <section class="level-container">
-      <div class="level" v-for="levelItem in levels" :key="levelItem.levelName">
-        <div class="digimon-box" v-for="digimon in levelItem.showItem" :key="digimon.name"
-          @click="selectDigimon(digimon)">
-          【{{digimon.number}}】{{digimon.name}}
-        </div>
+      <div class="level" :class="`level-${levelIndex + 1}`" v-for="(levelItem, levelIndex) in levels"
+        :key="levelItem.levelName">
+        <transition-group name="list" tag="div">
+          <div class="digimon-box" :class="[levelItem.showItem.length === 1 ? 'digimon-box-selectd' : '']"
+            v-for="digimon in levelItem.showItem" :key="digimon.name" @click="selectDigimon(digimon)">
+            【{{digimon.number}}】{{digimon.name}}
+            <div class="digimon-icon-box">
+              <img class="digimon-icon" :src="`./icon/${digimon.number}.jpg`">
+            </div>
+          </div>
+        </transition-group>
       </div>
     </section>
 
@@ -83,6 +162,7 @@
     s.parentNode.insertBefore(hm, s);
   })();
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
 <!--vue 前端框架-->
 <script src="https://upyun.luckly-mjw.cn/lib/vue.js"></script>
 <script src="./result.js"></script>
