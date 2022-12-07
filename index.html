@@ -16,6 +16,7 @@
     body {
       margin: 0;
       padding: 0;
+      background-color: #486BB3;
     }
 
     body::-webkit-scrollbar {
@@ -34,45 +35,59 @@
       height: 100%;
       width: 100%;
       text-align: center;
-      padding: 10px 50px 80px;
+      padding-top: 10px;
       box-sizing: border-box;
     }
 
+    .title {
+      text-align: center;
+    }
+
     .level {
-      padding: 20px 50px;
+      position: relative;
+      padding: 20px 100px;
       text-align: left;
       min-height: 200px;
       background-repeat: no-repeat;
       background-position: right bottom;
       background-size: 200px;
+      display: flex;
+      align-items: flex-end;
     }
 
     .level-1 {
       background-image: url('./bg/bg-1.png');
+      background-color: rgba(#FBE3E9, 0.4);
     }
 
     .level-2 {
       background-image: url('./bg/bg-2.png');
+      background-color: #FBAA56;
     }
 
     .level-3 {
       background-image: url('./bg/bg-3.png');
+      background-color: #FEB4CF;
     }
 
     .level-4 {
       background-image: url('./bg/bg-4.png');
+      background-color: #AED438;
     }
 
     .level-5 {
       background-image: url('./bg/bg-5.png');
+      background-color: #0162B0;
     }
 
     .level-6 {
       background-image: url('./bg/bg-6.png');
+      background-color: #6F3EA6;
     }
 
     .level-7 {
       background-image: url('./bg/bg-7.png');
+      background-color: #FF1659;
     }
 
 
@@ -86,7 +101,7 @@
       border-radius: 4px;
       cursor: pointer;
       border: solid 1px #eeeeee;
-      background-color: #dddddd;
+      background-color: #0CCD76;
       transition: all 1s;
       opacity: 1;
     }
@@ -104,17 +119,30 @@
       border-radius: 4px;
       box-sizing: border-box;
       transition: all 0.5s;
-      background-color: #dddddd;
+      background-color: #0CCD76;
     }
 
     .digimon-icon {
       width: 100%;
     }
 
+    .digimon-box:hover,
+    .digimon-box-selectd {
+      background-color: #F5C33E;
+    }
+
+    .digimon-box-selectd {
+      position: absolute;
+      left: 150px;
+      bottom: 24px;
+      transform: translate(-50%);
+    }
+
     .digimon-box:hover .digimon-icon-box,
     .digimon-box-selectd .digimon-icon-box {
       z-index: 1;
       opacity: 1;
+      background-color: #F5C33E;
     }
 
     .list-enter-active,
@@ -134,6 +162,9 @@
 <body>
 
   <section id="m-app" v-cloak>
+    <div class="title">
+      <img src="./bg/bg.jpeg">
+    </div>
     <section class="level-container">
       <div class="level" :class="`level-${levelIndex + 1}`" v-for="(levelItem, levelIndex) in levels"
         :key="levelItem.levelName">
