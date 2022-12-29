@@ -7,9 +7,9 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="毛静文,Momo">
-  <meta name="keywords" content="m3u8 下载工具, 毛静文的博客,Momo's Blog">
-  <meta name="description" content="m3u8 下载工具,无需下载软件,打开网站即可下载,自动检测,一键下载">
-  <title>m3u8 downloader</title>
+  <meta name="keywords" content="数码宝贝进化图鉴, 毛静文的博客,Momo's Blog">
+  <meta name="description" content="《数码宝贝物语-骇客追忆》配套进化模拟器,数码宝贝进化模拟器,数码宝贝进化图鉴,数码宝贝进化树,digimon-evolution-tree">
+  <title>数码宝贝进化模拟器</title>
   <style>
     /*全局设置*/
     html,
@@ -37,6 +37,56 @@
       text-align: center;
       padding-top: 10px;
       box-sizing: border-box;
+    }
+
+    .m-p-help {
+      position: fixed;
+      right: 50px;
+      top: 50px;
+      width: 30px;
+      height: 30px;
+      color: #666666;
+      z-index: 2;
+      line-height: 30px;
+      font-weight: bolder;
+      border-radius: 50%;
+      border: 1px solid rgba(27, 31, 35, .2);
+      cursor: pointer;
+      background-color: #eff3f6;
+      background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+    }
+
+    .m-p-help:hover {
+      opacity: 0.9;
+    }
+
+    .bottom-tool {
+      position: fixed;
+      right: 54px;
+      bottom: 50px;
+      z-index: 999;
+      width: 130px;
+      text-align: right;
+      display: inline-block;
+    }
+
+    .bottom-tool-item {
+      display: inline-block;
+      margin: 4px 0;
+      background-color: #eff3f6;
+      background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+      color: #24292e;
+      border: 1px solid rgba(27, 31, 35, .2);
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      padding: 6px 12px;
+    }
+
+    .bottom-tool-item:hover {
+      opacity: 0.9;
     }
 
     .title {
@@ -156,31 +206,128 @@
       opacity: 0;
       transform: translateY(60px);
     }
+
+    .detail-box {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      cursor: pointer;
+      z-index: 99;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .detail-container {
+      position: relative;
+      top: 4vh;
+      height: 92vh;
+      width: 92vw;
+    }
+
+    .detail-container div {
+      max-height: 45vh;
+      max-width: 45vw;
+      height: 45vh;
+      width: 45vw;
+      position: absolute;
+    }
+
+    .detail-container div:nth-child(1) {
+      left: 0;
+      top: 0;
+    }
+
+    .detail-container div:nth-child(2) {
+      right: 0;
+      top: 0;
+    }
+
+    .detail-container div:nth-child(3) {
+      left: 0;
+      bottom: 0;
+    }
+
+    .detail-container div:nth-child(4) {
+      right: 0;
+      bottom: 0;
+    }
+
+    .detail-container img {
+      width: 100%;
+    }
+
+
+    .slide-fade-enter-active,
+    .slide-fade-leave-active {
+      transition: all .3s ease;
+    }
+
+    .slide-fade-enter,
+    .slide-fade-leave-to {
+      transform: scale(2);
+      opacity: 0;
+    }
   </style>
 </head>
 
 <body>
-
+  <div id="loading">
+    页面加载中，请耐心等待...
+    <h1 style="white-space: pre;">
+      《数码宝贝物语-骇客追忆》配套进化模拟器，向前进化模拟，向后退化图鉴，完整进化路线一键预览
+      数码宝贝进化图鉴, 数码宝贝进化图谱, 数码宝贝进化树, digimon-evolution-tree
+    </h1>
+  </div>
   <section id="m-app" v-cloak>
     <div class="title">
       <img src="./bg/bg.jpeg">
+    </div>
+    <a class="m-p-help" target="_blank" href="https://segmentfault.com/a/1190000021847172">?</a>
+    <!--右下角外链工具栏-->
+    <div class="bottom-tool">
+      <a class="bottom-tool-item" target="_blank" href="https://github.com/Momo707577045/time-parser">github</a>
+      <a class="bottom-tool-item" target="_blank" href="http://blog.luckly-mjw.cn/tool-show/index.html">其他实用工具</a>
     </div>
     <section class="level-container">
       <div class="level" :class="`level-${levelIndex + 1}`" v-for="(levelItem, levelIndex) in levels"
         :key="levelItem.levelName">
         <transition-group name="list" tag="div">
           <div class="digimon-box" :class="[levelItem.showItem.length === 1 ? 'digimon-box-selectd' : '']"
-            v-for="digimon in levelItem.showItem" :key="digimon.name" @click="selectDigimon(digimon)">
-            【{{digimon.number}}】{{digimon.name}}
-            <div class="digimon-icon-box">
-              <img class="digimon-icon" :src="`./icon/${digimon.number}.jpg`">
+            v-for="digimon in levelItem.showItem" :key="digimon.name">
+            <div @click="selectDigimon(digimon)">【{{digimon.number}}】{{digimon.name}}</div>
+            <div class="digimon-icon-box" @click="detailItem = digimon">
+              <img class="digimon-icon"
+                :src="`http://upyun.luckly-mjw.cn/Assets/digimon-evolution-tree/icon/${digimon.number}.jpg`">
             </div>
           </div>
         </transition-group>
       </div>
     </section>
-
-    </template>
+    <transition name="slide-fade">
+      <section v-if="detailItem" class="detail-box" @click="detailItem = null">
+        <div class="detail-container">
+          <div class="detail-left-top">
+            <img alt="数码兽基础信息加载中"
+              :src="`http://upyun.luckly-mjw.cn/Assets/digimon-evolution-tree/img/${detailItem.number}_1.jpg`">
+          </div>
+          <div class="detail-right-top">
+            <img alt="数码兽介绍加载中"
+              :src="`http://upyun.luckly-mjw.cn/Assets/digimon-evolution-tree/img/${detailItem.number}_4.jpg`">
+          </div>
+          <div class="detail-left-bottom">
+            <img alt="数码兽退化图鉴加载中"
+              :src="`http://upyun.luckly-mjw.cn/Assets/digimon-evolution-tree/img/${detailItem.number}_2.jpg`">
+          </div>
+          <div class="detail-right-bottom">
+            <img alt="数码兽进化图鉴加载中"
+              :src="`http://upyun.luckly-mjw.cn/Assets/digimon-evolution-tree/img/${detailItem.number}_3.jpg`">
+          </div>
+        </div>
+      </section>
+    </transition>
   </section>
 </body>
 
@@ -199,7 +346,6 @@
 <script src="./result.js"></script>
 
 <script>
-
   // script注入
   document.getElementById('m-loading') && document.getElementById('m-loading').remove()
   new Vue({
@@ -208,7 +354,8 @@
     data() {
       return {
         levels: [],
-        idToItem: {}
+        idToItem: {},
+        detailItem: null
       }
     },
 
