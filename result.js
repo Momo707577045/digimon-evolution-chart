@@ -12570,7 +12570,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "烈焰拳 敌方全体物理火属性威力70(加速增幅器 交叉拳 云雾汽油弹III)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "装甲体"
     },
     "preItem": [
@@ -12594,7 +12594,7 @@ const digimonRelations = [
     "race": "自由",
     "skill": "闪金太阳风暴 敌方全体魔法光属性威力75 自身DEF+15%  等离子射击 敌方全体物理火属性威力35 攻击3次(地牛翻身II 复活 彗星重锤III 守备填充力场 地牛翻身III)",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "装甲体"
     },
     "preItem": [
@@ -12620,7 +12620,7 @@ const digimonRelations = [
     "name": "拉比兽(盔甲)",
     "cost": "8",
     "level": {
-      "index": 3,
+      "index": 4,
       "name": "装甲体"
     },
     "race": "疫苗",
