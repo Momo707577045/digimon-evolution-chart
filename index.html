@@ -278,7 +278,7 @@
     页面加载中，请耐心等待...
     <h1 style="white-space: pre;">
       《数码宝贝物语-骇客追忆》配套进化模拟器，向前进化模拟，向后退化图鉴，完整进化路线一键预览
-      数码宝贝进化图鉴, 数码宝贝进化图谱, 数码宝贝进化树, digimon-evolution-tree 
+      数码宝贝进化图鉴, 数码宝贝进化图谱, 数码宝贝进化树, digimon-evolution-tree
     </h1>
   </div>
   <section id="m-app" v-cloak>
@@ -288,7 +288,8 @@
     <a class="m-p-help" target="_blank" href="https://segmentfault.com/a/1190000043196679">?</a>
     <!--右下角外链工具栏-->
     <div class="bottom-tool">
-      <a class="bottom-tool-item" target="_blank" href="https://github.com/Momo707577045/digimon-evolution-tree">github</a>
+      <a class="bottom-tool-item" target="_blank"
+        href="https://github.com/Momo707577045/digimon-evolution-tree">github</a>
       <a class="bottom-tool-item" target="_blank" href="http://blog.luckly-mjw.cn/tool-show/index.html">其他实用工具</a>
     </div>
     <section class="level-container">
@@ -296,9 +297,9 @@
         :key="levelItem.levelName">
         <transition-group name="list" tag="div">
           <div class="digimon-box" :class="[levelItem.showItem.length === 1 ? 'digimon-box-selectd' : '']"
-            v-for="digimon in levelItem.showItem" :key="digimon.name">
-            <div @click="selectDigimon(digimon)">【{{digimon.number}}】{{digimon.name}}</div>
-            <div class="digimon-icon-box" @click="detailItem = digimon">
+            v-for="digimon in levelItem.showItem" :key="digimon.name" @click="selectDigimon(digimon)">
+            <div>【{{digimon.number}}】{{digimon.name}}</div>
+            <div class="digimon-icon-box" @click.stop="detailItem = digimon">
               <img class="digimon-icon"
                 :src="`http://upyun.luckly-mjw.cn/Assets/digimon-evolution-tree/icon/${digimon.number}.jpg`">
             </div>
@@ -343,7 +344,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
 <!--vue 前端框架-->
 <script src="https://upyun.luckly-mjw.cn/lib/vue.js"></script>
-<script src="./result.js"></script>
+<script src="./result.js?v=2"></script>
 
 <script>
   // script注入
@@ -354,6 +355,7 @@
     data() {
       return {
         levels: [],
+        levelSelects: [], // 各层级选中的项目
         idToItem: {},
         detailItem: null
       }
@@ -365,7 +367,9 @@
 
     methods: {
       initData() {
-        digimonRelations.forEach(item => {
+        this.levels = [];
+        this.levelSelects = [];
+        JSON.parse(JSON.stringify(digimonRelations)).forEach(item => {
           this.idToItem[item.number] = item
           const levelIndex = item.level.index - 1
           this.levels[levelIndex] = this.levels[levelIndex] || {
@@ -381,22 +385,32 @@
 
       selectDigimon(item) {
         const levelIndex = item.level.index - 1
-        this.levels[levelIndex].showItem = [item]
-
-        for (let index = levelIndex + 1; index < this.levels.length; index++) {
-          this.levels[index].showItem = this.getItem(this.levels[index - 1].showItem, 'nextItem')
-        }
-
-        for (let index = levelIndex - 1; index > -1; index--) {
-          this.levels[index].showItem = this.getItem(this.levels[index + 1].showItem, 'preItem')
-        }
-
-        this.idToItem = {}
-        this.levels.forEach(level => {
-          level.showItem.forEach(item => {
-            this.idToItem[item.number] = item
+        if (this.levelSelects[levelIndex]) { // 取消选择
+          const tempSelects = [...this.levelSelects];
+          this.initData();
+          tempSelects[levelIndex] = undefined;
+          tempSelects.filter(item => item).forEach((item, itemIndex) => {
+            this.selectDigimon(item);
           })
-        })
+        } else { // 选择
+          this.levels[levelIndex].showItem = [item]
+          this.levelSelects[levelIndex] = item;
+
+          for (let index = levelIndex + 1; index < this.levels.length; index++) {
+            this.levels[index].showItem = this.getItem(this.levels[index - 1].showItem, 'nextItem')
+          }
+
+          for (let index = levelIndex - 1; index > -1; index--) {
+            this.levels[index].showItem = this.getItem(this.levels[index + 1].showItem, 'preItem')
+          }
+
+          this.idToItem = {}
+          this.levels.forEach(level => {
+            level.showItem.forEach(item => {
+              this.idToItem[item.number] = item
+            })
+          })
+        }
       },
 
       getItem(sourceItems, type) {
